@@ -1,0 +1,215 @@
+1027
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="format-detection" content="telephone=no" />
+<title>Rediff.com - India, Business, Stock, Sports, Cricket, Entertainment, Bollywood, Music, Video and Breaking news, Rediffmail NG, Shopping</title>
+<meta name="keywords" content="India news, India breaking news, Hindi songs, new songs, listen to music, Live cricket score, sports, Stock market, share value, finance, free mail, web email free, social networking, make friends, free videos, video clip, india shopping, online shopping, news , Music, Cricket, Money, Rediffmail, MyPage, iShare, Shopping, Rediffmail NG" />
+<meta name="description" content="Rediff.com - India's leading portal which covers India news, Hindi Movies, Photos, Videos, Live Cricket Score, Stock updates from BSE and NSE, Bollywood news, Online shopping, Social networking, Rediffmail NG" />
+<!-- IE9-Windows7: Pinned Sites: Starts -->
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name="application-name"       content="Rediff.com" />
+<meta name="msapplication-tooltip"  content="Rediff.com"/>
+<meta name="msapplication-window"   content="width=1500;height=900" />
+<meta name="msapplication-task"
+content="name=Cricket;action-uri=http://www.rediff.com/cricket?pin=ie9;icon-uri=http://www.rediff.com/favicon.ico"/>
+<meta name="msapplication-task"
+content="name=Rediff MoneyWiz;action-uri=http://money.rediff.com?pin=ie9;icon-uri=http://www.rediff.com/favicon.ico"/>
+<meta name="msapplication-task"
+content="name=Rediff Deal ho jaye!;action-uri=http://dealhojaye.rediff.com?pin=ie9;icon-uri=http://www.rediff.com/favicon.ico"/>
+<meta name="msapplication-task"
+content="name=rediffmailNG;action-uri=https://mail.rediff.com/cgi-bin/login.cgi?pin=ie9;icon-uri=http://www.rediff.com/favicon.ico"/>
+<!-- IE9-Windows7: Pinned Sites: Ends -->
+<link rel="shortcut icon" type=image/x-icon href="http://www.rediff.com/favicon.ico">
+<link rel="stylesheet" href="http://imworld.rediff.com/worldrediff/style_3_16/home_tile_ind_7.css" />
+<script type="text/javascript">
+var homepage = 1;
+var glb_vid_num = 0 ;
+var dealimg_number = 5;
+var s_buzz_no = (Math.floor(Math.random()*3));
+var pages_domain ="http://pages.rediff.com" ;
+var imgpath = "http://imworld.rediff.com/worldrediff/pix";
+var loggedin = "";
+var totalvideos = "10";
+var totalfeaturedpages = "15";
+var glb_citymapped = 0; var glb_trackdeal = ""; var glb_trackshop = ""; var glb_trackshop1 = ""; var glb_trackbook = ""; var glb_altrpromo = 0; var glb_scrll_met = 0;
+var glb_promo_random = (Math.floor(Math.random()*3));
+var booksArr = new Array();var shopArr = new Array();var shopPromoArr = new Array();
+document.domain = "rediff.com";
+</script>
+</head>
+<body>
+<div id="divPinSite"></div>
+<div id="trans_div"></div>
+
+<!-- homewrapper starts -->
+<div id="homewrapper" class="homewrapper">
+	<div class="popupcontainer"><div id="div_signup"></div><div id="div_confirm"></div></div>
+	<div class="f12 grey1 divtopsrchlink"> <a href="http://realtime.rediff.com/news?src=rediff_home" title="India As It Happens" onclick="trackURL('http://track.rediff.com/click?url=___http://realtime.rediff.com/news?src=rediff_home___&cmp=rt_news&lnk=rt_news&nsrv1=inhome');return false;">Realtime News &nbsp; &nbsp;<a href="http://realtime.rediff.com/images?src=rediff_home" onclick="trackURL('http://track.rediff.com/click?url=___http://realtime.rediff.com/images?src=rediff_home___&cmp=rt_images&lnk=rt_images&nsrv1=inhome');return false;">Images</a>&nbsp; &nbsp; &nbsp;  <a href="http://books.rediff.com/?sc_cid=inhome_srch" onclick="trackURL('http://track.rediff.com/click?url=___http://books.rediff.com/?sc_cid=inhome_srch___&cmp=HP&lnk=books_srchbar&nsrv1=HP');return false;">Books</a>&nbsp; &nbsp; &nbsp;  <a href="http://search.rediff.com/allsearch/index.html" onclick="trackURL('http://track.rediff.com/click?url=___http://search.rediff.com/allsearch/index.html___&cmp=rt_more&lnk=rt_more&nsrv1=inhome');return false;">More</a></div><div class="userinfo floatR"><span id="username"></span><span id="hp" style="BEHAVIOR: url(#default#homepage)"></span><span id="sethome"></span> <span>
+<script type="text/javascript">
+var ck=document.cookie;function getcookie(n)
+{var ar=n+"=";var al=ar.length;var cl=ck.length;var i=0;while(i<cl)
+{j=i+al;if(ck.substring(i,j)==ar)
+{e=ck.indexOf(";",j);if(e==-1)
+e=ck.length;return unescape(ck.substring(j,e));}
+i=ck.indexOf(" ",i)+1;if(i==0)
+break;}
+return "";}
+</script>
+
+<span id="signin_info"> <a href='https://mail.rediff.com/cgi-bin/login.cgi'>Sign in</a>  &nbsp;|&nbsp; <a href='http://register.rediff.com/register/register.php?FormName=user_details'>Create a Rediffmail account</a></span>
+<iframe src="about:blank" name="metric_iframe" id="metric_iframe" width="1" height="1" frameborder="0" class="hide" ></iframe>
+	<script type="text/javascript">
+
+		var querystring	= "";
+		var path	= "";
+		var domain	= "";
+		var Rkey_data	= "";
+		var Rkey	= Math.floor(Math.random() * 1000000);
+		querystring	= window.location.search;
+		path		= window.location.pathname;
+		domain		= window.location.host;
+		var tmp_ref = encodeURIComponent(document.referrer);
+		if((tmp_ref == null) || (tmp_ref.length == 0)){tmp_ref = "";}
+
+
+			var resolution = screen.width+'x'+screen.height;
+			if (querystring == "")
+			{
+				Rkey_data = "?rkey="+Rkey+"&w="+resolution;
+			}
+			else
+			{
+				Rkey_data = "&rkey="+Rkey+"&w="+resolution;
+			}
+
+
+
+		if(tmp_ref != "")
+		{
+			Rkey_data += "&ref="+tmp_ref;
+		}
+
+
+		document.getElementById('metric_iframe').src ='http://metric.ind.rediff.com/'+domain+path+querystring+Rkey_data;
+	</script>
+
+<script>
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6035613" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+	function comscore_ajax(url)
+	{
+		_comscore.push({ c1: "2", c2: "6035613",c4:url });
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	}
+</script>
+
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=6035613&cv=2.0&cj=1" /></noscript>
+
+<script  type="text/javascript" >
+var endyear 	= "2013";
+var  cdn_domain = "http://www.rediff.com";
+var  org_domain = "http://mypage.rediff.com";
+var  imgpath	= "http://imworld.rediff.com/worldrediff/pix";
+var  ishare_domain	= "http://ishare.rediff.com";
+var OAS_sitepage = "" ;
+var OAS_listpos = "" ;
+
+
+var Rlo="";
+var Rl = "";
+Rlo	=	getcookie("Rlo");
+Rlo =	unescape(Rlo).replace(/\+/g," ");
+Rlo =	Rlo.replace("@rediffmail.com","");
+Rlo = Rlo.replace(/[^\w\d\s\-\_]/ig,'');
+Rl = getcookie("Rl");
+Rl = Rl.replace(/[^\w\d\s\-\_@\.]/ig,'');
+var tmp_rsc1 = "";
+var tmp_rm1 = "";
+tmp_rsc1 = getcookie("Rsc");
+tmp_rm1 = getcookie("Rm");
+if((Rlo != "" || Rl!="" ) && tmp_rsc1 != "" && tmp_rm1 != "")
+{
+
+	if(Rlo != "" )
+	{
+		document.getElementById('username').innerHTML	= "<a href='"+org_domain+"/profile/myprofile' class='proper' onclick=\"trackURL('http://track.rediff.com/click?url=___"+org_domain+"/profile/myprofile___&cmp=mypage&lnk=mypage&nsrv1=inhome');return false;\">"+Rlo+"</a>&nbsp; | &nbsp;" ;
+	}
+	else
+	{
+		Rl = Rl.substring(0,Rl.lastIndexOf('@'));
+		document.getElementById('username').innerHTML	= "<a href='"+org_domain+"/profile/myprofile' onclick=\"trackURL('http://track.rediff.com/click?url=___"+org_domain+"/profile/myprofile___&cmp=mypage&lnk=mypage&nsrv1=inhome');return false;\">"+Rl+"</a>&nbsp; | &nbsp;" ;
+	}
+
+	if(document.getElementById('signin_info'))document.getElementById('signin_info').innerHTML = "" ;
+}
+else
+{
+	if(document.getElementById('signin_info')){document.getElementById('signin_info').innerHTML = " <a href='https://mail.rediff.com/cgi-bin/login.cgi' onclick=\"javascript:signin();document.getElementById('c_uname').focus();return false;\" title='Already a user? Sign in'>Sign in</a>  &nbsp;|&nbsp; <a href='http://register.rediff.com/register/register.php?FormName=user_details' >Create a Rediffmail account</a>";}
+	if(Rlo != "" && Rl != "" )
+	{
+		if(document.getElementById('signin_info')){document.getElementById('signin_info').innerHTML += "&nbsp;|&nbsp;";}
+	}
+}
+if(Rl != "")
+{
+	if(document.getElementById('signin_info')){document.getElementById('signin_info').innerHTML += "<a href='"+org_domain+"/signout' title='Sign out'>Sign out</a>";}
+}
+
+</script>
+<style type="text/css">.popupcontainer{z-index:1000;}</style></span></div>
+	<span class="clear"></span>
+	<div class="floatL"><img id="redifflogo" src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite homelogo" title="Rediff India" alt="Rediff.com" /></div>
+	<div id="topsrchhome"><form name="srchform" id="queryTop" method="post" action="http://realtime.rediff.com/phpnews" onsubmit="return submitSearch()"><div class="srch_outer"><input type="text" autocomplete="off" id="srchword" name="srchword" class="homesrchbox" /><input type="hidden" name="src" id="snsSRC" value="web"></input><input type="submit" value="    " class="homesprite newsrchbtn" /></div></form><div id="sug" class="sug"></div><span class="sm1">&nbsp;Happening Now :</span> <a href="http://realtime.rediff.com/news/Vanzara?src=home_cue1" class="sm1" onclick="trackURL('http://track.rediff.com/click?url=___http%3A%2F%2Frealtime.rediff.com%2Fnews%2FVanzara%3Fsrc%3Dhome_cue1___&cmp=rt_bot&lnk=rt_bot&nsrv1=inhome');return false;">DG Vanzara</a>,  <a href="http://realtime.rediff.com/news/Raghuram-Rajan?src=home_cue2" class="sm1" onclick="trackURL('http://track.rediff.com/click?url=___http%3A%2F%2Frealtime.rediff.com%2Fnews%2FRaghuram-Rajan%3Fsrc%3Dhome_cue2___&cmp=rt_bot&lnk=rt_bot&nsrv1=inhome');return false;">Raghuram Rajan</a>,  <a href="http://realtime.rediff.com/news/Syria-Strike?src=home_cue3" class="sm1" onclick="trackURL('http://track.rediff.com/click?url=___http%3A%2F%2Frealtime.rediff.com%2Fnews%2FSyria-Strike%3Fsrc%3Dhome_cue3___&cmp=rt_bot&lnk=rt_bot&nsrv1=inhome');return false;">Syria Strike</a>,  <a href="http://realtime.rediff.com/news/Teachers-Day-?src=home_cue4" class="sm1" onclick="trackURL('http://track.rediff.com/click?url=___http%3A%2F%2Frealtime.rediff.com%2Fnews%2FTeachers-Day-%3Fsrc%3Dhome_cue4___&cmp=rt_bot&lnk=rt_bot&nsrv1=inhome');return false;">Teachers Day</a></div>
+	<span class="clear"></span>
+	<!-- new design starts -->
+	<div id="new_design">
+	<div class="icondiv"><a href="https://mail.rediff.com/cgi-bin/login.cgi" onclick="return validmailuser();return false;" title="Lightning fast free email" class="curhand"><div class="divicon"><img src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite mailicon" alt="Lightning fast free email" /><u>rediffmail</u></div></a><a href="http://hosting.rediff.com/rediffmailpro/business-email?sc_cid=inhome" title="Lightning fast business email hosting" onclick="trackURL('http://track.rediff.com/click?url=___http://hosting.rediff.com/rediffmailpro/business-email?sc_cid=inhome___&cmp=host&lnk=inhome&nsrv1=host');return false;"  class="curhand"><div class="divicon"><img src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite mailproicon" alt="Lightning fast business email hosting" /><u>Company Email</u></div></a><a href="http://money.rediff.com/" title="Live commentary of the Indian stock markets, stock quotes and business news" onclick="trackURL('http://track.rediff.com/click?url=___http://money.rediff.com/___&cmp=money&lnk=money&nsrv1=inhome');return false;"><div  class="divicon"><img src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite moneyicon" alt="Live commentary of the Indian stock markets, stock quotes and business news" /><u>Money</u></div></a><div class="divicon"><a href="http://mypage.rediff.com"  title="Share your stuff to discover more of what you like" onclick="trackURL('http://track.rediff.com/click?url=___http://mypage.rediff.com___&cmp=mypage&lnk=mypage&nsrv1=inhome');return false;"  class="curhand"><div class="homesprite mypageicon floatL" ><img id="myphoto" src="http://imworld.rediff.com/worldrediff/pix/blank.gif" width="30" height="22" title="Share your stuff to discover more of what you like" alt="social networking, make friends" class="myphoto"></div></a><a href="http://mypage.rediff.com" onclick="trackURL('http://track.rediff.com/click?url=___http://mypage.rediff.com___&cmp=mypage&lnk=mypage&nsrv1=inhome');return false;"  class="curhand"><div class="mypagelink">MyPage</div></a></div><a href="http://shopping.rediff.com" onclick="trackURL('http://track.rediff.com/click?url=___http://shopping.rediff.com/?sc_cid=inhome_icon___&cmp=HP&lnk=shopping_icon&nsrv1=HP');return false;" title="Online Shopping" class="curhand"><div class="divicon"><img src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite shopicon" alt="Online Shopping" /><u>Shopping</u></div></a><a href="http://books.rediff.com" onclick="trackURL('http://track.rediff.com/click?url=___http://books.rediff.com?sc_cid=bk_inhome_icon___&cmp=HP&lnk=books_icon&nsrv1=HP');return false;" title="Buy books online"  class="curhand"><div class="divicon"><img src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite booksicon" alt="Buy books online" /><u>Books</u></div></a><a href="http://ishare.rediff.com" onclick="trackURL('http://track.rediff.com/click?url=___http://ishare.rediff.com___&cmp=ishare&lnk=ishare_icon&nsrv1=inhome');return false;" title="Watch videos"  class="curhand"><div class="divicon"><div class="floatL"><img src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite videosicon" alt="Watch videos" /></div><div class="videocopy"><u>Videos</u></div></div></a><span class="clear"></span></div>
+	<div><p class="t_date">Last Updated: Sep 05, 2013 IST 19:00:23</p><span class="clear"></span></div>
+	<!-- maincontainer starts -->
+	<div class="maincontainer">
+		<div class="n_tabsul">
+			<div class="telluslink floatR"><a href="http://mypage.rediff.com/feedback">Tell us what you think about this new layout!</a></div>
+			<div class="n_tabsel">HOME</div>
+			<a href="http://www.rediff.com/news" onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_nav&lnk=news1_nav&nsrv1=inhome');return false;"><div class="n_tabnormal">NEWS</div></a>
+			<a href="http://www.rediff.com/business" onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business___&cmp=bus1_nav&lnk=bus1_nav&nsrv1=inhome');return false;"><div class="n_tabnormal">BUSINESS</div></a>
+			<a href="http://www.rediff.com/movies" onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/movies___&cmp=mov1_nav&lnk=mov1_nav&nsrv1=inhome');return false;"><div class="n_tabnormal">MOVIES</div></a>
+			<a href="http://www.rediff.com/sports" onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports___&cmp=sports1_nav&lnk=sports1_nav&nsrv1=inhome');return false;"><div class="n_tabnormal">SPORTS</div></a>
+			<a href="http://www.rediff.com/cricket" onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/cricket___&cmp=cric1_nav&lnk=cric1_nav&nsrv1=inhome');return false;"><div class="n_tabnormal">CRICKET</div></a>
+			<a href="http://www.rediff.com/getahead" onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/getahead___&cmp=get1_nav&lnk=get1_nav&nsrv1=inhome');return false;"><div class="n_tabnormal">GET AHEAD</div></a>
+			<a href="http://www.rediff.com/appstore/rediffnews" onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/appstore/rediffnews___&lnk=inhome&newservice=newsapp');return false;"><div class="napp_tab"><img src="http://imworld.rediff.com/worldrediff/pix/blank.gif" class="homesprite smmobicon" /> NEWS ON MOBILE</div></a>
+		</div>
+		<span class="clear"></span>
+		<span class="ht5"></span>
+		<div id="leftcontainer" class="leftcontainer">
+			<div id="column1" class="wd50 floatL">
+				<div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_head&lnk=news1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/news">News</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://news.rediff.com/commentary/2013/sep/05/liveupdates.htm___&cmp=HP&lnk=news-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/news/2013/sep/05live-taliban.jpg" class="img" href="http://news.rediff.com/commentary/2013/sep/05/liveupdates.htm"><img class="thumbimg" alt="Live! Indian author Sushmita Banerjee shot dead by militants in Afghanistan" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://news.rediff.com/commentary/2013/sep/05/liveupdates.htm___&cmp=HP&lnk=news-art-txt&nsrv1=inhome');return false;" class="black" href="http://news.rediff.com/commentary/2013/sep/05/liveupdates.htm">Live! Indian author Sushmita Banerjee shot dead by militants in Afghanistan</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_more&lnk=news1_more&nsrv1=inhome');return false;" title="Go to News homepage" href="http://www.rediff.com/news">More News stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business___&cmp=business1_head&lnk=business1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/business">Business</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business/slide-show/slide-show-1-tech-samsung-launches-smartwatch-galaxy-note-3/20130905.htm___&cmp=HP&lnk=business-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/money/2013/sep/05watch6.jpg" class="img" href="http://www.rediff.com/business/slide-show/slide-show-1-tech-samsung-launches-smartwatch-galaxy-note-3/20130905.htm"><img class="thumbimg" alt="Samsung launches smartwatch, Galaxy Note 3" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business/slide-show/slide-show-1-tech-samsung-launches-smartwatch-galaxy-note-3/20130905.htm___&cmp=HP&lnk=business-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/business/slide-show/slide-show-1-tech-samsung-launches-smartwatch-galaxy-note-3/20130905.htm">Samsung launches smartwatch, Galaxy Note 3</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business___&cmp=business1_more&lnk=business1_more&nsrv1=inhome');return false;" title="Go to Business homepage" href="http://www.rediff.com/business">More Business stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_head&lnk=news1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/news">News</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news/special/india-independence-day-special-abhilash-tomy/20130905.htm___&cmp=HP&lnk=news-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/news/2013/sep/05india2.jpg" class="img" href="http://www.rediff.com/news/special/india-independence-day-special-abhilash-tomy/20130905.htm"><img class="thumbimg" alt="Hoisting the Indian flag where no one else has" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news/special/india-independence-day-special-abhilash-tomy/20130905.htm___&cmp=HP&lnk=news-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/news/special/india-independence-day-special-abhilash-tomy/20130905.htm">Hoisting the Indian flag where no one else has</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_more&lnk=news1_more&nsrv1=inhome');return false;" title="Go to News homepage" href="http://www.rediff.com/news">More News stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business___&cmp=business1_head&lnk=business1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/business">Business</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business/slide-show/slide-show-1-auto-armadillo-t-a-car-that-folds-in-half-for-easy-parking/20130905.htm___&cmp=HP&lnk=business-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/money/2013/sep/04armadillo1.jpg" class="img" href="http://www.rediff.com/business/slide-show/slide-show-1-auto-armadillo-t-a-car-that-folds-in-half-for-easy-parking/20130905.htm"><img class="thumbimg" alt="Armadillo-T: A car that folds in half for easy parking" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business/slide-show/slide-show-1-auto-armadillo-t-a-car-that-folds-in-half-for-easy-parking/20130905.htm___&cmp=HP&lnk=business-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/business/slide-show/slide-show-1-auto-armadillo-t-a-car-that-folds-in-half-for-easy-parking/20130905.htm">Armadillo-T: A car that folds in half for easy parking</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business___&cmp=business1_more&lnk=business1_more&nsrv1=inhome');return false;" title="Go to Business homepage" href="http://www.rediff.com/business">More Business stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports___&cmp=sports1_head&lnk=sports1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/sports">Sports</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports/report/sports-ministry-jitendra-singh-backs-ioc-diktat-demands-ioa-amend-constitution/20130905.htm___&cmp=HP&lnk=sports-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/cricket/2013/aug/02jitendrasingh.jpg" class="img" href="http://www.rediff.com/sports/report/sports-ministry-jitendra-singh-backs-ioc-diktat-demands-ioa-amend-constitution/20130905.htm"><img class="thumbimg" alt="Ministry backs IOC diktat; demands IOA amend constitution" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports/report/sports-ministry-jitendra-singh-backs-ioc-diktat-demands-ioa-amend-constitution/20130905.htm___&cmp=HP&lnk=sports-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/sports/report/sports-ministry-jitendra-singh-backs-ioc-diktat-demands-ioa-amend-constitution/20130905.htm">Ministry backs IOC diktat; demands IOA amend constitution</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports___&cmp=sports1_more&lnk=sports1_more&nsrv1=inhome');return false;" title="Go to Sports homepage" href="http://www.rediff.com/sports">More Sports stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_head&lnk=news1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/news">News</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news/slide-show/slide-show-1-i-dont-dream-of-being-pm-have-to-serve-guj-till-2017-modi/20130905.htm___&cmp=HP&lnk=news-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/news/2013/sep/05modi1.jpg" class="img" href="http://www.rediff.com/news/slide-show/slide-show-1-i-dont-dream-of-being-pm-have-to-serve-guj-till-2017-modi/20130905.htm"><img class="thumbimg" alt="I don't dream of being PM; have to serve Guj till 2017: Modi" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news/slide-show/slide-show-1-i-dont-dream-of-being-pm-have-to-serve-guj-till-2017-modi/20130905.htm___&cmp=HP&lnk=news-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/news/slide-show/slide-show-1-i-dont-dream-of-being-pm-have-to-serve-guj-till-2017-modi/20130905.htm">I don't dream of being PM; have to serve Guj till 2017: Modi</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_more&lnk=news1_more&nsrv1=inhome');return false;" title="Go to News homepage" href="http://www.rediff.com/news">More News stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports___&cmp=sports1_head&lnk=sports1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/sports">Sports</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports/slide-show/slide-show-1-tokyo-dangles-dollars-in-bid-to-win-2020-olympic-games-madrid-istanbul/20130905.htm___&cmp=HP&lnk=sports-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/sports/2013/sep/05tokyo1.jpg" class="img" href="http://www.rediff.com/sports/slide-show/slide-show-1-tokyo-dangles-dollars-in-bid-to-win-2020-olympic-games-madrid-istanbul/20130905.htm"><img class="thumbimg" alt="Tokyo dangles dollars in bid to win 2020 Olympic Games" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports/slide-show/slide-show-1-tokyo-dangles-dollars-in-bid-to-win-2020-olympic-games-madrid-istanbul/20130905.htm___&cmp=HP&lnk=sports-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/sports/slide-show/slide-show-1-tokyo-dangles-dollars-in-bid-to-win-2020-olympic-games-madrid-istanbul/20130905.htm">Tokyo dangles dollars in bid to win 2020 Olympic Games</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/sports___&cmp=sports1_more&lnk=sports1_more&nsrv1=inhome');return false;" title="Go to Sports homepage" href="http://www.rediff.com/sports">More Sports stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business___&cmp=business1_head&lnk=business1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/business">Business</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business/slide-show/slide-show-1-special-most-competitive-countries-in-the-world-india-ranks-60/20130905.htm___&cmp=HP&lnk=business-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/money/2013/sep/04wef1.jpg" class="img" href="http://www.rediff.com/business/slide-show/slide-show-1-special-most-competitive-countries-in-the-world-india-ranks-60/20130905.htm"><img class="thumbimg" alt="Most competitive countries in the world; India ranks 60" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business/slide-show/slide-show-1-special-most-competitive-countries-in-the-world-india-ranks-60/20130905.htm___&cmp=HP&lnk=business-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/business/slide-show/slide-show-1-special-most-competitive-countries-in-the-world-india-ranks-60/20130905.htm">Most competitive countries in the world; India ranks 60</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/business___&cmp=business1_more&lnk=business1_more&nsrv1=inhome');return false;" title="Go to Business homepage" href="http://www.rediff.com/business">More Business stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div>
+				<div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_head&lnk=news1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/news">News</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news/slide-show/slide-show-1-delhi-rape-defence-lawyers-blame-braveheart-her-friend-and-govt/20130905.htm___&cmp=HP&lnk=news-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/news/2013/sep/05juvelile.jpg" class="img" href="http://www.rediff.com/news/slide-show/slide-show-1-delhi-rape-defence-lawyers-blame-braveheart-her-friend-and-govt/20130905.htm"><img class="thumbimg" alt="Delhi rape: Defence lawyers blame Braveheart, her friend, and govt" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div>
+								<a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news/slide-show/slide-show-1-delhi-rape-defence-lawyers-blame-braveheart-her-friend-and-govt/20130905.htm___&cmp=HP&lnk=news-art-txt&nsrv1=inhome');return false;" class="black" href="http://www.rediff.com/news/slide-show/slide-show-1-delhi-rape-defence-lawyers-blame-braveheart-her-friend-and-govt/20130905.htm">Delhi rape: Defence lawyers blame Braveheart, her friend, and govt</a><div class="newmorediv bold"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/news___&cmp=news1_more&lnk=news1_more&nsrv1=inhome');return false;" title="Go to News homepage" href="http://www.rediff.com/news">More News stories <img class="homesprite morearrow1" src="http://imworld.rediff.com/worldrediff/pix/blank.gif"></a></div></div></div><div class="colbox"><div class="innerbox"><div class="sechead"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/movies___&cmp=movies1_head&lnk=movies1_head&nsrv1=inhome');return false;" class="capitalize" href="http://www.rediff.com/movies">Movies</a></div>
+								<div class="newimgthumb"><a onclick="trackURL('http://track.rediff.com/click?url=___http://www.rediff.com/movies/report/your-favourite-televsion-actoractress-tell-us-tv/20130827.htm___&cmp=HP&lnk=movies-art-img&nsrv1=inhome');return false;" rel="http://im.rediff.com/200-300/movies/2013/aug/27geet.jpg" class="img" href="http://www.rediff.com/movies/report/your-favourite-televsion-actoractress-tell-us-tv/20130827.htm"><img class="thumbimg" alt="YOUR favourite television actor{-truncated-}
