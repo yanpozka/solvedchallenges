@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"fmt"
 	"os"
 	"regexp"
@@ -12,20 +13,28 @@ import (
 var regEx = regexp.MustCompile(`http://([a-z0-9]+[.]{1}[a-z0-9\-\.]*[a-z0-9]+)+`)
 
 func main() {
-
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
-	scanner.Split(bufio.ScanWords)
+	var buffer bytes.Buffer
+	for scanner.Scan() {
+		buffer.WriteString(scanner.Text())
+	}
 
 	urls_map := make(map[string]bool)
 
-	for scanner.Scan() {
-		group := regEx.FindStringSubmatch(scanner.Text())
+	all_groups := regEx.FindAllStringSubmatch(buffer.String(), -1)
+
+	for i := range all_groups {
+		group := all_groups[i]
+
+		fmt.Println(group)
+
 		if len(group) > 1 {
 			// fmt.Println(group)
 			urls_map[group[1]] = true
 		}
 	}
+
 	var size int = len(urls_map)
 	var urls sort.StringSlice = make(sort.StringSlice, 0, size)
 	for ur := range urls_map {
