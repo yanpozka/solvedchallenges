@@ -15,11 +15,12 @@ func main() {
 	N, _ = strconv.Atoi(scanner.Text())
 	scanner.Scan()
 	parts := strings.Split(scanner.Text(), " ")
+	bot_row, _ := strconv.Atoi(parts[0])
 	bot_col, _ := strconv.Atoi(parts[1])
 
 	for i := 0; i < N && scanner.Scan(); i++ {
 		var row string = scanner.Text()
-		for k := range row {
+		for k := 0; k < N; k++ {
 			if row[k] == 112 { // "p"
 				princess_row, princess_col = i, k
 				break // we have the position of the princess so we don't need to continue read the input
@@ -34,7 +35,7 @@ func main() {
 		if princess_col < bot_col {
 			first_direct = "LEFT"
 		} else { // same col
-			if princess_row > bot_col {
+			if princess_row > bot_row {
 				first_direct = "DOWN"
 			} else {
 				first_direct = "UP"
