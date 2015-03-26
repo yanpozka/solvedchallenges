@@ -25,8 +25,8 @@ func main() {
 	}
 
 	fmt.Println(avg(nums))
-
 	fmt.Println(median(nums))
+	fmt.Println(mode(nums))
 }
 
 func avg(nums []float64) float64 {
@@ -43,8 +43,36 @@ func median(nums []float64) float64 {
 	lenslice := len(floatSlice)
 
 	if lenslice%2 != 0 {
-		return floatSlice[lenslice/2.0]
+		return floatSlice[lenslice/2]
 	}
 
 	return (floatSlice[lenslice/2] + floatSlice[lenslice/2-1]) / 2.0
+}
+
+func mode(nums []float64) float64 {
+	num_map := make(map[float64]int)
+
+	for i := 0; i < N; i++ {
+		if _, exists := num_map[nums[i]]; !exists {
+			num_map[nums[i]] = 0
+		}
+		num_map[nums[i]]++
+	}
+	var min float64 = 9999999999
+	var max_amount int = -1
+
+	for current_n := range num_map {
+		amount := num_map[current_n]
+		if amount > max_amount {
+			max_amount = amount
+			min = current_n
+		} else {
+			if max_amount == amount {
+				if current_n < min {
+					min = current_n
+				}
+			}
+		}
+	}
+	return min
 }
