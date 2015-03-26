@@ -8,26 +8,43 @@ import (
 )
 
 func main() {
-	var N, pr_row, pr_col int
+	var N, princess_row, princess_col int
 	scanner := bufio.NewScanner(os.Stdin)
-	fmt.Println("p"[0])
-
 	scanner.Scan()
 	N, _ = strconv.Atoi(scanner.Text())
 
 	for i := 0; i < N && scanner.Scan(); i++ {
 		var row string = scanner.Text()
 
-		if i == 0 || i == N-1 { // first row
+		if i == 0 || i == N-1 { // first or last row
 			var size int = len(row)
 			if row[0] == 112 { // "p"
-				pr_row, pr_col = i, 0
+				princess_row, princess_col = i, 0
 				break
-			} else if row[size-1] == 112 {
-				pr_row, pr_col = i, size-1
+			} else if row[size-1] == 112 { // "p"
+				princess_row, princess_col = i, size-1
 				break
 			}
 		}
 	}
-	fmt.Println(pr_row, pr_col)
+	var first_direct, second_direct string
+
+	if princess_row == 0 {
+		first_direct = "UP"
+	} else {
+		first_direct = "DOWN"
+	}
+	if princess_col == 0 {
+		second_direct = "LEFT"
+	} else {
+		second_direct = "RIGHT"
+	}
+	var half int = N / 2
+	for i := 0; i < half; i++ {
+		fmt.Println(first_direct)
+	}
+
+	for i := 0; i < half; i++ {
+		fmt.Println(second_direct)
+	}
 }
