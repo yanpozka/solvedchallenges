@@ -54,9 +54,7 @@ func corelation(notes_a, notes_b []float64, mean_a, mean_b, sd_a, sd_b float64) 
 	var sum_corelation float64 = 0.0
 
 	for i := 0; i < N; i++ {
-		div_a := math.Abs(notes_a[i]-mean_a) / sd_a
-		div_b := math.Abs(notes_b[i]-mean_b) / sd_b
-		sum_corelation += (div_a * div_b)
+		sum_corelation += ((notes_a[i] - mean_a) / sd_a) * ((notes_b[i] - mean_b) / sd_b)
 	}
 	return sum_corelation * onedivNminsone
 }
