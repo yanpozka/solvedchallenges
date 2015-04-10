@@ -1,0 +1,15 @@
+78358;controlling 2 kw,230v- infra red short wave heaters using electronic device;Aug 8 at 10:06
+78355;how to synchronize internal RTC to computer time and date;Aug 8 at 8:52
+78353;SPI Interfacing using Serial Port or USB;Aug 8 at 8:32
+78351;Trouble on understanding ALU 2-bit design;Aug 8 at 8:20
+78348;Small (max 5x5 mm) connector, panel mount, for asyncronous serial interface?;Aug 8 at 7:20
+78345;What happened to the TO-3 package?;Aug 8 at 7:05
+78337;Which way does electricity power a circuit?;Aug 8 at 4:00
+78336;Using Relay With Microcontroller;Aug 8 at 3:56
+78329;how to measure the current from AC-DC supplier?;Aug 8 at 2:05
+78328;Reducing capacitance of a wire;Aug 8 at 2:03
+78322;Ground Wire Installation [closed];Aug 8 at 0:38
+78319;Performance of solar panel vs. DC power supply;Aug 8 at 0:07
+78318;Altium Simulation Node Voltages;Aug 7 at 23:55
+78315;Why does the voltage changes in this simple circuit?;Aug 7 at 23:08
+78307;How do I figure out the correct polarity of a DC barrel connector;Aug 7 at 21:38

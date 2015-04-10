@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Newest Questions - Page 44 - Electrical Engineering Stack Exchange</title>
+    <link rel="shortcut icon" href="//cdn.sstatic.net/electronics/img/favicon.ico">
+    <link rel="apple-touch-icon image_src" href="//cdn.sstatic.net/electronics/img/apple-touch-icon.png">
+    <link rel="search" type="application/opensearchdescription+xml" title="Electrical Engineering Stack Exchange" href="/opensearch.xml">
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.sstatic.net/js/stub.js?v=5d233283ca8d"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.sstatic.net/electronics/all.css?v=672ddec9ce04">
+
+
+                <script type="text/x-mathjax-config">
+                    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+                                        tex2jax: { inlineMath: [ ["\\$", "\\$"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+                                        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+                                        messageStyle: "none"
+                });
+                </script>
+                <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+    <script type="text/javascript">
+        StackExchange.ready(function () {
+            StackExchange.realtime.init('sockets.ny.stackexchange.com');
+            StackExchange.realtime.subscribeToInboxNotifications();
+                    StackExchange.realtime.subscribeToReputationNotifications('135');
+                });
+    </script>
+    <script type="text/javascript">
+        StackExchange.init({"stackAuthUrl":"https://stackauth.com","serverTime":1377686850,"styleCode":true,"enableUserHovercards":true,"site":{"name":"Electrical Engineering Stack Exchange","description":"Q&A for electronics and electrical engineering professionals, students, and enthusiasts","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdsB7sSAAAAAAzjgEF_Hd8vXv-C42sa_KyofaGR","enableSocialMediaInSharePopup":true},"user":{"fkey":"964caaf8350dc8ae69af722ba29b4a1d","isAnonymous":true}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.js":"6c261bebf56a","js/moderator.js":"ed7a8238b2f8","js/full-anon.js":"5f9bf5810297","js/full.js":"027ac5ea264e","js/wmd.js":"cff10cca4fd9","js/third-party/jquery.autocomplete.min.js":"e5f01e97f7c3","js/mobile.js":"82a79dbb7259","js/help.js":"6e6623243cf6","js/tageditor.js":"450c9e8426fc","js/tageditornew.js":"b6c68ad4c7dd","js/inline-tag-editing.js":"8e84e8a137f7","js/revisions.js":"d3e781ee5528","js/review.js":"947758ba83ea","js/tagsuggestions.js":"aa48ef6154df","js/post-validation.js":"bb996020492a","js/explore-qlist.js":"1c5bbd79b562","js/events.js":"27a33f0b2cad"});
+        StackExchange.using.setCacheBreakers({"js/mathjax-editing.js":"6da1b6cfe19f","js/external-editor.js":"51c0a8d46d29"});
+    </script>
+    <script type="text/javascript">
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script>
+
+        <script type="text/javascript">
+            StackExchange.ready(function () {
+                $('#nav-tour').click(function () {
+                    StackExchange.using("gps", function() {
+                        StackExchange.gps.track("aboutpage.click", { aboutclick_location: "headermain" }, true);
+                    });
+                });
+            });
+        </script>
+</head>
+<body class="questions-page">
+    <noscript><div id="noscript-padding"></div></noscript>
+    <div id="notify-container"></div>
+    <div id="overlay-header"></div>
+    <div id="custom-header"></div>
+
+    <div class="container">
+        <div id="header" class=headeranon>
+            <div id="portalLink">
+                <a class="genu" href="http://stackexchange.com" onclick="StackExchange.ready(function(){genuwine.click();});return false;">Stack Exchange</a>
+            </div>
+            <div id="topbar">
+                <div id="hlinks">
+
+<span id="hlinks-user"></span>
+<span id="hlinks-nav">                        <a href="/users/login?returnurl=%2fquestions%3fpage%3d44%26sort%3dnewest">sign up</a>
+
+ <span class="lsep">|</span>
+                    <a href="/users/login?returnurl=%2fquestions%3fpage%3d44%26sort%3dnewest">log in</a>
+
+ <span class="lsep">|</span>
+</span>
+<span id="hlinks-custom"></span>
+                </div>
+                <div id="hsearch">
+                    <form id="search" action="/search" method="get" autocomplete="off">
+                        <div>
+                            <input autocomplete="off" name="q" class="textbox" placeholder="search" tabindex="1" type="text" maxlength="240" size="28" value="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br class="cbt">
+            <div id="hlogo">
+                <a href="/">
+                    Electrical Engineering
+                </a>
+            </div>
+            <div id="hmenus">
+                <div class="nav mainnavs mainnavsanon">
+                    <ul>
+                            <li class="youarehere"><a id="nav-questions" href="/questions">Questions</a></li>
+                            <li><a id="nav-tags" href="/tags">Tags</a></li>
+                            <li><a id="nav-tour" href="/about">Tour</a></li>
+                            <li><a id="nav-users" href="/users">Users</a></li>
+                    </ul>
+                </div>
+                <div class="nav askquestion">
+                    <ul>
+                        <li>
+                            <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div id="content">
+
+<div id="mainbar">
+    <div class="subheader">
+        <h1 id="h-all-questions">All Questions</h1>
+        <div id="tabs">
+<a class="youarehere" href="/questions?sort=newest" title="the most recently asked questions">newest</a>
+<a href="/questions?sort=featured" title="questions with open bounties"><span class='bounty-indicator-tab'>3</span>featured</a>
+<a href="/questions?sort=frequent" title="questions with the most links">frequent</a>
+<a href="/questions?sort=votes" title="questions with the most votes">votes</a>
+<a href="/questions?sort=active" title="questions that have recent activity">active</a>
+<a href="/questions?sort=unanswered" title="questions that have no upvoted answers">unanswered</a>
+
+        </div>
+    </div>
+
+    <div id="questions">
+
+<div class="question-summary" id="question-summary-78358">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+
+
+
+<div class="views " title="34 views">
+                    34 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78358/controlling-2-kw-230v-infra-red-short-wave-heaters-using-electronic-device" class="question-hyperlink">controlling 2 kw,230v- infra red short wave heaters using electronic device</a></h3>
+        <div class="excerpt">
+            i want to control infra red short wave heaters 230v,2kw, with some electronic device,
+it is an open loop system,where i want to give analog signal to heater from 0 to 100% .
+i cant take Thermocouple ...
+        </div>
+
+        <div class="tags t-voltage-regulator t-solid-state-relay t-dimming">
+            <a href="/questions/tagged/voltage-regulator" class="post-tag" title="show questions tagged 'voltage-regulator'" rel="tag">voltage-regulator</a> <a href="/questions/tagged/solid-state-relay" class="post-tag" title="show questions tagged 'solid-state-relay'" rel="tag">solid-state-relay</a> <a href="/questions/tagged/dimming" class="post-tag" title="show questions tagged 'dimming'" rel="tag">dimming</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 10:06:07Z" class="relativetime">Aug 8 at 10:06</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27245/user27245"><div class=""><img src="https://www.gravatar.com/avatar/73e6c66117a190c5cc03a90caf569aae?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27245/user27245">user27245</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">1</span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78355">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="47 views">
+                    47 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78355/how-to-synchronize-internal-rtc-to-computer-time-and-date" class="question-hyperlink">how to synchronize internal RTC to computer time and date</a></h3>
+        <div class="excerpt">
+            i am using pic18f67k22 controller.i already configure and initialize internal RTC. But i want start RTC to computer time.so how i can synchronize pic RTC to computer.i have one computer application ...
+        </div>
+
+        <div class="tags t-microcontroller t-pic t-rtc">
+            <a href="/questions/tagged/microcontroller" class="post-tag" title="show questions tagged 'microcontroller'" rel="tag">microcontroller</a> <a href="/questions/tagged/pic" class="post-tag" title="show questions tagged 'pic'" rel="tag">pic</a> <a href="/questions/tagged/rtc" class="post-tag" title="show questions tagged 'rtc'" rel="tag">rtc</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 08:52:58Z" class="relativetime">Aug 8 at 8:52</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/23841/shail-korat"><div class=""><img src="https://www.gravatar.com/avatar/649adca335821feacbd54299440806f2?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/23841/shail-korat">shail korat</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">23</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78353">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+
+
+
+<div class="views " title="46 views">
+                    46 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78353/spi-interfacing-using-serial-port-or-usb" class="question-hyperlink">SPI Interfacing using Serial Port or USB</a></h3>
+        <div class="excerpt">
+            I have a nRF24L01+ module from Nordic Semiconductors. It has SPI interface. My laptop has USB ports and I have a Serial Port (Using a USB-to-Serial_Port adapter). What is the best possible solution to ...
+        </div>
+
+        <div class="tags t-usb t-serial t-spi t-interface">
+            <a href="/questions/tagged/usb" class="post-tag" title="show questions tagged 'usb'" rel="tag">usb</a> <a href="/questions/tagged/serial" class="post-tag" title="show questions tagged 'serial'" rel="tag">serial</a> <a href="/questions/tagged/spi" class="post-tag" title="show questions tagged 'spi'" rel="tag">spi</a> <a href="/questions/tagged/interface" class="post-tag" title="show questions tagged 'interface'" rel="tag">interface</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 08:32:08Z" class="relativetime">Aug 8 at 8:32</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/7329/subin-sebastian"><div class=""><img src="https://www.gravatar.com/avatar/b3b512420352799f21d1e7933b59b9ed?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/7329/subin-sebastian">Subin Sebastian</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">211</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78351">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="54 views">
+                    54 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78351/trouble-on-understanding-alu-2-bit-design" class="question-hyperlink">Trouble on understanding ALU 2-bit design</a></h3>
+        <div class="excerpt">
+            I'm new to this site and I'm pretty "noobish" to electrical engineering coming from a software engineering background I was hoping someone could help me understand this design a bit. I've highlighted ...
+        </div>
+
+        <div class="tags t-alu">
+            <a href="/questions/tagged/alu" class="post-tag" title="show questions tagged 'alu'" rel="tag">alu</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 08:20:46Z" class="relativetime">Aug 8 at 8:20</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27251/thecodemonsters"><div class=""><img src="https://www.gravatar.com/avatar/b02a007bf995a0986bd3c55d6b5bc3e6?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27251/thecodemonsters">theCodeMonsters</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">13</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78348">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>3</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+
+
+
+<div class="views " title="57 views">
+                    57 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78348/small-max-5x5-mm-connector-panel-mount-for-asyncronous-serial-interface" class="question-hyperlink">Small (max 5x5 mm) connector, panel mount, for asyncronous serial interface?</a></h3>
+        <div class="excerpt">
+            I opened a small router and hooked up 2 wires on the PCB (to catch the serial data). That works fine.
+
+Now I'm looking for a way to make a small (tiny) connector in the enclosure, so for future use i ...
+        </div>
+
+        <div class="tags t-pcb t-connector t-cases t-mount">
+            <a href="/questions/tagged/pcb" class="post-tag" title="show questions tagged 'pcb'" rel="tag">pcb</a> <a href="/questions/tagged/connector" class="post-tag" title="show questions tagged 'connector'" rel="tag">connector</a> <a href="/questions/tagged/cases" class="post-tag" title="show questions tagged 'cases'" rel="tag">cases</a> <a href="/questions/tagged/mount" class="post-tag" title="show questions tagged 'mount'" rel="tag">mount</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 07:20:56Z" class="relativetime">Aug 8 at 7:20</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/8524/rogier"><div class=""><img src="https://www.gravatar.com/avatar/181219cd20b8036ef8ec45b94aed6474?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/8524/rogier">Rogier</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">165</span><span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78345">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>4</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+
+
+
+<div class="views " title="69 views">
+                    69 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78345/what-happened-to-the-to-3-package" class="question-hyperlink">What happened to the TO-3 package?</a></h3>
+        <div class="excerpt">
+            TO-3 used to be a common package for power transistors, but you don't see them much anymore. It can't be just because of SMT, TO-220 is still much in use. TO-3 has a much lower thermal resistance than ...
+        </div>
+
+        <div class="tags t-packages">
+            <a href="/questions/tagged/packages" class="post-tag" title="show questions tagged 'packages'" rel="tag">packages</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 07:05:21Z" class="relativetime">Aug 8 at 7:05</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27167/radagast"><div class=""><img src="https://www.gravatar.com/avatar/294b3e797acb485f50878567a54bfec8?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27167/radagast">radagast</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">334</span><span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span><span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78337">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>16</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="431 views">
+                    431 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78337/which-way-does-electricity-power-a-circuit" class="question-hyperlink">Which way does electricity power a circuit?</a></h3>
+        <div class="excerpt">
+            Working with some circuits this summer, I ran into what everyone eventually does: Current flows from + to - despite the electrons flowing (well, bumping into eachother) from - to +. I understand the ...
+        </div>
+
+        <div class="tags t-power-supply t-current t-analog">
+            <a href="/questions/tagged/power-supply" class="post-tag" title="show questions tagged 'power-supply'" rel="tag">power-supply</a> <a href="/questions/tagged/current" class="post-tag" title="show questions tagged 'current'" rel="tag">current</a> <a href="/questions/tagged/analog" class="post-tag" title="show questions tagged 'analog'" rel="tag">analog</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 04:00:29Z" class="relativetime">Aug 8 at 4:00</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27243/tom"><div class=""><img src="https://www.gravatar.com/avatar/bfc2bcb561dd6949178afc5306c1fb25?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27243/tom">Tom</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">81</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78336">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="115 views">
+                    115 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78336/using-relay-with-microcontroller" class="question-hyperlink">Using Relay With Microcontroller</a></h3>
+        <div class="excerpt">
+            I have created a boost converter which boost 12v to 60v. I want to be able to pulse this voltage under water.  I would like to have only the positive lead (Vout from boost) to come off the boost ...
+        </div>
+
+        <div class="tags t-microcontroller t-relay">
+            <a href="/questions/tagged/microcontroller" class="post-tag" title="show questions tagged 'microcontroller'" rel="tag">microcontroller</a> <a href="/questions/tagged/relay" class="post-tag" title="show questions tagged 'relay'" rel="tag">relay</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 03:56:44Z" class="relativetime">Aug 8 at 3:56</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27242/wallace"><div class=""><img src="https://www.gravatar.com/avatar/ea5a17f0b7d6efa25f118ade0a0db9d5?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27242/wallace">Wallace</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">58</span><span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78329">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="48 views">
+                    48 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78329/how-to-measure-the-current-from-ac-dc-supplier" class="question-hyperlink">how to measure the current from AC-DC supplier?</a></h3>
+        <div class="excerpt">
+            I started to learn the AC/DC circuit some times ago. I don't have much experience. But from this semester on, I have some chances to practice it in lab by working on some project. I got a AC/DC power ...
+        </div>
+
+        <div class="tags t-power-supply t-dc">
+            <a href="/questions/tagged/power-supply" class="post-tag" title="show questions tagged 'power-supply'" rel="tag">power-supply</a> <a href="/questions/tagged/dc" class="post-tag" title="show questions tagged 'dc'" rel="tag">dc</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 02:05:53Z" class="relativetime">Aug 8 at 2:05</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/17060/user1285419"><div class=""><img src="https://www.gravatar.com/avatar/08ee68b20a4eceff26f7eee99b708c08?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/17060/user1285419">user1285419</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">165</span><span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78328">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>1</strong>answer
+            </div>
+        </div>
+
+
+
+<div class="views " title="86 views">
+                    86 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78328/reducing-capacitance-of-a-wire" class="question-hyperlink">Reducing capacitance of a wire</a></h3>
+        <div class="excerpt">
+            Given a wire and a piece of foil wired to a bread board, is it possible using capacitors wired in series (or some other method) to significantly reduce the capacitance of the wire/foil?
+
+        </div>
+
+        <div class="tags t-capacitor t-capacitance">
+            <a href="/questions/tagged/capacitor" class="post-tag" title="show questions tagged 'capacitor'" rel="tag">capacitor</a> <a href="/questions/tagged/capacitance" class="post-tag" title="show questions tagged 'capacitance'" rel="tag">capacitance</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 02:03:19Z" class="relativetime">Aug 8 at 2:03</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27085/j03m"><div class=""><img src="https://www.gravatar.com/avatar/a16354f806a5e7cdf68128173ec06ec6?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27085/j03m">j03m</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">146</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78322">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-2</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>1</strong>answer
+            </div>
+        </div>
+
+
+
+<div class="views " title="63 views">
+                    63 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78322/ground-wire-installation" class="question-hyperlink">Ground Wire Installation [closed]</a></h3>
+        <div class="excerpt">
+            Currently I do not have ground in my house wiring. I am planing to install ground wiring but the floor around the main service panel is cemented and I don't think I can place a ground rod in the ...
+        </div>
+
+        <div class="tags t-wiring">
+            <a href="/questions/tagged/wiring" class="post-tag" title="show questions tagged 'wiring'" rel="tag">wiring</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 00:38:13Z" class="relativetime">Aug 8 at 0:38</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27238/khiz"><div class=""><img src="https://www.gravatar.com/avatar/5a94e8f9238c314cab95243f99332222?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27238/khiz">khiz</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">33</span><span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78319">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered">
+                <strong>2</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="63 views">
+                    63 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78319/performance-of-solar-panel-vs-dc-power-supply" class="question-hyperlink">Performance of solar panel vs. DC power supply</a></h3>
+        <div class="excerpt">
+            I am building a solar swamp cooler for burning man (hot dry desert environment).
+
+Purchased a 15w solar panel that outputs 0.9a at 20V in full sun (verified as true with my voltmeter). The solar panel ...
+        </div>
+
+        <div class="tags t-power-supply t-dc t-solar-cell">
+            <a href="/questions/tagged/power-supply" class="post-tag" title="show questions tagged 'power-supply'" rel="tag">power-supply</a> <a href="/questions/tagged/dc" class="post-tag" title="show questions tagged 'dc'" rel="tag">dc</a> <a href="/questions/tagged/solar-cell" class="post-tag" title="show questions tagged 'solar-cell'" rel="tag">solar-cell</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-08 00:07:34Z" class="relativetime">Aug 8 at 0:07</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27183/nimble"><div class=""><img src="https://www.gravatar.com/avatar/2bb088aedd0b5458b587e3bc104f1edc?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27183/nimble">nimble</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">11</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78318">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>0</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status unanswered">
+                <strong>0</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="23 views">
+                    23 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78318/altium-simulation-node-voltages" class="question-hyperlink">Altium Simulation Node Voltages</a></h3>
+        <div class="excerpt">
+            When simulating a circuit in Altium it generates signals based on the components and net labels placed in the circuit, eg:
+
+<span class='tex2jax_ignore'>r1[i]
+r1[p]
+v1
+v2
+</span>
+
+Altium also adds the ...
+        </div>
+
+        <div class="tags t-simulation t-circuit-analysis t-altium">
+            <a href="/questions/tagged/simulation" class="post-tag" title="show questions tagged 'simulation'" rel="tag">simulation</a> <a href="/questions/tagged/circuit-analysis" class="post-tag" title="show questions tagged 'circuit-analysis'" rel="tag">circuit-analysis</a> <a href="/questions/tagged/altium" class="post-tag" title="show questions tagged 'altium'" rel="tag">altium</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-07 23:55:41Z" class="relativetime">Aug 7 at 23:55</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27237/troy"><div class=""><img src="https://www.gravatar.com/avatar/5c9a9c526c1c796a536814e3b04405d1?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27237/troy">Troy</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">1</span><span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78315">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>1</strong></span>
+                    <div class="viewcount">vote</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>2</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="146 views">
+                    146 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78315/why-does-the-voltage-changes-in-this-simple-circuit" class="question-hyperlink">Why does the voltage changes in this simple circuit?</a></h3>
+        <div class="excerpt">
+            I'm beginning to learn electronics, and there's something I just can't grasp. I was told that a high resistance in a circuit would lead to a smaller current passing through it, but the voltage would ...
+        </div>
+
+        <div class="tags t-power t-voltage t-current t-resistance t-ohms-law">
+            <a href="/questions/tagged/power" class="post-tag" title="show questions tagged 'power'" rel="tag">power</a> <a href="/questions/tagged/voltage" class="post-tag" title="show questions tagged 'voltage'" rel="tag">voltage</a> <a href="/questions/tagged/current" class="post-tag" title="show questions tagged 'current'" rel="tag">current</a> <a href="/questions/tagged/resistance" class="post-tag" title="show questions tagged 'resistance'" rel="tag">resistance</a> <a href="/questions/tagged/ohms-law" class="post-tag" title="show questions tagged 'ohms-law'" rel="tag">ohms-law</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-07 23:08:48Z" class="relativetime">Aug 7 at 23:08</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27236/wingleader"><div class=""><img src="https://www.gravatar.com/avatar/01d2f745e0e93e81d23ca4214668eadb?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27236/wingleader">wingleader</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">8</span><span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="question-summary" id="question-summary-78307">
+    <div class="statscontainer">
+        <div class="statsarrow"></div>
+        <div class="stats">
+            <div class="vote">
+                <div class="votes">
+                    <span class="vote-count-post "><strong>-1</strong></span>
+                    <div class="viewcount">votes</div>
+                </div>
+            </div>
+            <div class="status answered-accepted">
+                <strong>4</strong>answers
+            </div>
+        </div>
+
+
+
+<div class="views " title="89 views">
+                    89 views
+</div>
+    </div>
+    <div class="summary">
+        <h3><a href="/questions/78307/how-do-i-figure-out-the-correct-polarity-of-a-dc-barrel-connector" class="question-hyperlink">How do I figure out the correct polarity of a DC barrel connector</a></h3>
+        <div class="excerpt">
+            I'm in the U.S. and I bought a digital wall clock from the U.K. which came with an AC adapter with input 230V/50Hz/90mA and output 9V/800mA. Now I could get a transformer to convert 120V to 230V but ...
+        </div>
+
+        <div class="tags t-multimeter t-polarity">
+            <a href="/questions/tagged/multimeter" class="post-tag" title="show questions tagged 'multimeter'" rel="tag">multimeter</a> <a href="/questions/tagged/polarity" class="post-tag" title="show questions tagged 'polarity'" rel="tag">polarity</a>
+
+        </div>
+        <div class="started fr">
+
+
+    <div class="user-info ">
+        <div class="user-action-time">
+
+
+                    asked <span title="2013-08-07 21:38:15Z" class="relativetime">Aug 7 at 21:38</span>
+        </div>
+        <div class="user-gravatar32">
+            <a href="/users/27233/eydelber"><div class=""><img src="https://www.gravatar.com/avatar/f882365e2a203587fe941634b3a376b2?s=32&d=identicon&r=PG" alt="" width="32" height="32"></div></a>
+        </div>
+        <div class="user-details">
+            <a href="/users/27233/eydelber">eydelber</a><br>
+            <span class="reputation-score" title="reputation score" dir="ltr">101</span><span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+        </div>
+
+    <br class="cbt">
+
+
+    <div class="page-sizer fr">
+            <a href="/questions?pagesize=15&amp;sort=newest" title="show 15 items per page" class="page-numbers current">15</a>
+            <a href="/questions?pagesize=30&amp;sort=newest" title="show 30 items per page" class="page-numbers ">30</a>
+            <a href="/questions?pagesize=50&amp;sort=newest" title="show 50 items per page" class="page-numbers ">50</a>
+        <span class="page-numbers desc">per page</span>
+    </div>
+<div class="pager fl" >
+<a href="/questions?page=43&amp;sort=newest" title="go to page 43" rel="prev"><span class="page-numbers prev">prev </span></a>
+<a href="/questions?page=1&amp;sort=newest" title="go to page 1"><span class="page-numbers">1</span></a>
+<span class="page-numbers dots">&hellip;</span>
+<a href="/questions?page=42&amp;sort=newest" title="go to page 42"><span class="page-numbers">42</span></a>
+<a href="/questions?page=43&amp;sort=newest" title="go to page 43"><span class="page-numbers">43</span></a>
+<span class="page-numbers current">44</span>
+<a href="/questions?page=45&amp;sort=newest" title="go to page 45"><span class="page-numbers">45</span></a>
+<a href="/questions?page=46&amp;sort=newest" title="go to page 46"><span class="page-numbers">46</span></a>
+<span class="page-numbers dots">&hellip;</span>
+<a href="/questions?page=1340&amp;sort=newest" title="go to page 1340"><span class="page-numbers">1340</span></a>
+<a href="/questions?page=45&amp;sort=newest" title="go to page 45" rel="next"><span class="page-numbers next"> next</span></a>
+</div>
+
+</div>
+<div id="sidebar">
+    <div class="module" id="questions-count">
+        <div class="summarycount al">20,098</div>
+        <p>questions</p>
+    </div>
+
+
+
+
+
+
+
+    <div class="module" id="related-tags">
+    <h4 id="h-related-tags">Related Tags</h4>
+
+            <a href="/questions/tagged/arduino" class="post-tag" title="show questions tagged 'arduino'" rel="tag">arduino</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">2030</span></span><br>
+            <a href="/questions/tagged/microcontroller" class="post-tag" title="show questions tagged 'microcontroller'" rel="tag">microcontroller</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">1432</span></span><br>
+            <a href="/questions/tagged/power-supply" class="post-tag" title="show questions tagged 'power-supply'" rel="tag">power-supply</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">899</span></span><br>
+            <a href="/questions/tagged/led" class="post-tag" title="show questions tagged 'led'" rel="tag">led</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">789</span></span><br>
+            <a href="/questions/tagged/pic" class="post-tag" title="show questions tagged 'pic'" rel="tag">pic</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">735</span></span><br>
+            <a href="/questions/tagged/power" class="post-tag" title="show questions tagged 'power'" rel="tag">power</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">730</span></span><br>
+            <a href="/questions/tagged/voltage" class="post-tag" title="show questions tagged 'voltage'" rel="tag">voltage</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">608</span></span><br>
+            <a href="/questions/tagged/batteries" class="post-tag" title="show questions tagged 'batteries'" rel="tag">batteries</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">593</span></span><br>
+            <a href="/questions/tagged/transistors" class="post-tag" title="show questions tagged 'transistors'" rel="tag">transistors</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">577</span></span><br>
+            <a href="/questions/tagged/pcb" class="post-tag" title="show questions tagged 'pcb'" rel="tag">pcb</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">570</span></span><br>
+            <a href="/questions/tagged/capacitor" class="post-tag" title="show questions tagged 'capacitor'" rel="tag">capacitor</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">564</span></span><br>
+            <a href="/questions/tagged/usb" class="post-tag" title="show questions tagged 'usb'" rel="tag">usb</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">538</span></span><br>
+            <a href="/questions/tagged/digital-logic" class="post-tag" title="show questions tagged 'digital-logic'" rel="tag">digital-logic</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">522</span></span><br>
+            <a href="/questions/tagged/sensor" class="post-tag" title="show questions tagged 'sensor'" rel="tag">sensor</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">500</span></span><br>
+            <a href="/questions/tagged/avr" class="post-tag" title="show questions tagged 'avr'" rel="tag">avr</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">493</span></span><br>
+            <a href="/questions/tagged/op-amp" class="post-tag" title="show questions tagged 'op-amp'" rel="tag">op-amp</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">447</span></span><br>
+            <a href="/questions/tagged/current" class="post-tag" title="show questions tagged 'current'" rel="tag">current</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">436</span></span><br>
+            <a href="/questions/tagged/fpga" class="post-tag" title="show questions tagged 'fpga'" rel="tag">fpga</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">431</span></span><br>
+            <a href="/questions/tagged/circuit" class="post-tag" title="show questions tagged 'circuit'" rel="tag">circuit</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">423</span></span><br>
+            <a href="/questions/tagged/resistors" class="post-tag" title="show questions tagged 'resistors'" rel="tag">resistors</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">394</span></span><br>
+            <a href="/questions/tagged/audio" class="post-tag" title="show questions tagged 'audio'" rel="tag">audio</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">394</span></span><br>
+            <a href="/questions/tagged/motor" class="post-tag" title="show questions tagged 'motor'" rel="tag">motor</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">384</span></span><br>
+            <a href="/questions/tagged/voltage-regulator" class="post-tag" title="show questions tagged 'voltage-regulator'" rel="tag">voltage-regulator</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">377</span></span><br>
+            <a href="/questions/tagged/mosfet" class="post-tag" title="show questions tagged 'mosfet'" rel="tag">mosfet</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">374</span></span><br>
+            <a href="/questions/tagged/switches" class="post-tag" title="show questions tagged 'switches'" rel="tag">switches</a>&nbsp;<span class="item-multiplier"><span class="item-multiplier-x">&times;</span>&nbsp;<span class="item-multiplier-count">344</span></span><br>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <div id="footer" class="categories">
+        <div class="footerwrap">
+            <div id="footer-menu">
+                <div class="top-footer-links">
+                        <a href="/about">about</a>
+                    <a href="/help">help</a>
+                        <a href="/help/badges">badges</a>
+                    <a href="http://blog.stackexchange.com?blb=1">blog</a>
+                        <a href="http://chat.stackexchange.com">chat</a>
+                    <a href="http://data.stackexchange.com">data</a>
+                    <a href="http://stackexchange.com/legal">legal</a>
+                    <a href="http://stackexchange.com/legal/privacy-policy">privacy policy</a>
+                    <a href="http://stackexchange.com/about/hiring">jobs</a>
+                    <a href="http://stackexchange.com/about/contact">advertising info</a>
+
+                    <a onclick='StackExchange.switchMobile("on", "/questions?page=44&amp;sort=newest")'>mobile</a>
+                    <b><a href="/contact">contact us</a></b>
+                        <b><a href="http://meta.electronics.stackexchange.com">feedback</a></b>
+
+                </div>
+                <div id="footer-sites">
+                    <table>
+    <tr>
+            <th colspan=3>
+                Technology
+            </th>
+            <th >
+                Life / Arts
+            </th>
+            <th >
+                Culture / Recreation
+            </th>
+            <th >
+                Science
+            </th>
+            <th >
+                Other
+            </th>
+    </tr>
+    <tr>
+            <td>
+                <ol>
+                        <li><a href="http://stackoverflow.com" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                        <li><a href="http://serverfault.com" title="professional system and network administrators">Server Fault</a></li>
+                        <li><a href="http://superuser.com" title="computer enthusiasts and power users">Super User</a></li>
+                        <li><a href="http://webapps.stackexchange.com" title="power users of web applications">Web Applications</a></li>
+                        <li><a href="http://askubuntu.com" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                        <li><a href="http://webmasters.stackexchange.com" title="pro webmasters">Webmasters</a></li>
+                        <li><a href="http://gamedev.stackexchange.com" title="professional and independent game developers">Game Development</a></li>
+                        <li><a href="http://tex.stackexchange.com" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://programmers.stackexchange.com" title="professional programmers interested in conceptual questions about software development">Programmers</a></li>
+                        <li><a href="http://unix.stackexchange.com" title="users of Linux, FreeBSD and other Un*x-like operating systems.">Unix &amp; Linux</a></li>
+                        <li><a href="http://apple.stackexchange.com" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                        <li><a href="http://wordpress.stackexchange.com" title="WordPress developers and administrators">WordPress Answers</a></li>
+                        <li><a href="http://gis.stackexchange.com" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                        <li><a href="http://electronics.stackexchange.com" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                        <li><a href="http://android.stackexchange.com" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                        <li><a href="http://security.stackexchange.com" title="IT security professionals">IT Security</a></li>
+                            </ol></td><td><ol>
+                        <li><a href="http://dba.stackexchange.com" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                        <li><a href="http://drupal.stackexchange.com" title="Drupal developers and administrators">Drupal Answers</a></li>
+                        <li><a href="http://sharepoint.stackexchange.com" title="SharePoint enthusiasts">SharePoint</a></li>
+                        <li><a href="http://ux.stackexchange.com" title="user experience researchers and experts">User Experience</a></li>
+                        <li><a href="http://mathematica.stackexchange.com" title="users of Mathematica">Mathematica</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#technology" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://photo.stackexchange.com" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                        <li><a href="http://scifi.stackexchange.com" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                        <li><a href="http://cooking.stackexchange.com" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                        <li><a href="http://diy.stackexchange.com" title="contractors and serious DIYers">Home Improvement</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#lifearts" class="more">
+                                more (13)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://english.stackexchange.com" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                        <li><a href="http://skeptics.stackexchange.com" title="scientific skepticism">Skeptics</a></li>
+                        <li><a href="http://judaism.stackexchange.com" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                        <li><a href="http://travel.stackexchange.com" title="road warriors and seasoned travelers">Travel</a></li>
+                        <li><a href="http://christianity.stackexchange.com" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                        <li><a href="http://gaming.stackexchange.com" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                        <li><a href="http://bicycles.stackexchange.com" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                        <li><a href="http://rpg.stackexchange.com" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#culturerecreation" class="more">
+                                more (21)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://math.stackexchange.com" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                        <li><a href="http://stats.stackexchange.com" title="statisticians, data analysts, data miners and data visualization experts">Cross Validated (stats)</a></li>
+                        <li><a href="http://cstheory.stackexchange.com" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                        <li><a href="http://physics.stackexchange.com" title="active researchers, academics and students of physics">Physics</a></li>
+                        <li><a href="http://mathoverflow.net" title="professional mathematicians">MathOverflow</a></li>
+
+                        <li>
+                            <a href="http://stackexchange.com/sites#science" class="more">
+                                more (7)
+                            </a>
+                        </li>
+                </ol>
+            </td>
+            <td>
+                <ol>
+                        <li><a href="http://stackapps.com" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                        <li><a href="http://meta.stackoverflow.com" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Overflow</a></li>
+                        <li><a href="http://area51.stackexchange.com" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                        <li><a href="http://careers.stackoverflow.com">Stack Overflow Careers</a></li>
+
+                </ol>
+            </td>
+    </tr>
+</table>
+                </div>
+            </div>
+
+            <div id="copyright">
+                site design / logo &copy; 2013 stack exchange inc;
+                user contributions licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc-wiki</a>
+                with <a href="http://blog.stackoverflow.com/2009/06/attribution-required/" rel="license">attribution required</a>
+            </div>
+            <div id="footer-flair">
+                <a href="http://creativecommons.org/licenses/by-sa/3.0/" class="cc-wiki-link"></a>
+            </div>
+            <div id="svnrev">
+                rev 2013.8.28.977
+            </div>
+
+        </div>
+    </div>
+    <noscript>
+        <div id="noscript-warning">Electrical Engineering Stack Exchange works best with JavaScript enabled<img src="http://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"></div>
+    </noscript>
+
+    <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-5620270-24']);
+        _gaq.push(['_setDomainName','.stackexchange.com']);
+_gaq.push(['_trackPageview']);
+    var _qevents = _qevents || [];
+    (function () {
+        var ssl='https:'==document.location.protocol,
+            s=document.getElementsByTagName('script')[0],
+            ga=document.createElement('script');
+        ga.type='text/javascript';
+        ga.async=true;
+        ga.src=(ssl?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(ga,s);
+        var sc=document.createElement('script');
+        sc.type='text/javascript';
+        sc.async=true;
+        sc.src=(ssl?'https://secure':'http://edge')+'.quantserve.com/quant.js';
+        s.parentNode.insertBefore(sc,s);
+    })();
+    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+    </script>
+
+</body>
+</html>
