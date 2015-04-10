@@ -13,6 +13,7 @@ var regExp = regexp.MustCompile(`(?i)<[ ]*div[ ]*class[ ]*=[ ]*"[ ]*summary[ ]*"
 var rExOpenH3 = regexp.MustCompile(`(?i)<[ ]*h3[ ]*>`)
 var rExCloseH3 = regexp.MustCompile(`(?i)<[ ]*/[ ]*h3[ ]*>`)
 var rExSpan = regexp.MustCompile(`(?i)asked[ ]*<[ ]*span[ ]+title[ ]*=[ ]*`)
+var rExALink = regexp.MustCompile(`(?i)<[ ]*a[ ]+href[ ]*=[ ]*['|"]`)
 
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
@@ -50,13 +51,30 @@ func main() {
 
 		var time string = all_doc[start_time:end_time]
 		fmt.Println(time)
-
 		// </span>
-
 	}
 }
 
-// TODO
-func extractTitleAndId(hline string) (string, string) {
-	return hline, "id1"
+//
+func extractTitleAndId(hline string) (title, id string) {
+	// <a href="/questions/80407/
+	if posatag := rExALink.FindStringIndex(hline); posatag != nil {
+		var startid int = strings.Index(hline[posatag[1]:], `/questions/`) + posatag[1]
+		var endid int = strings.Index(hline[startid+11:], `/`) + startid + 11
+		id = hline[startid+11 : endid]
+
+		var starttitle int = strings.Index(hline[endid:], `>`) + endid + 1
+		var endtitle int = strings.Index(hline[endid:], `<`) + endid
+
+		return hline[starttitle:endtitle], id
+	}
+
+	starttitle, endtitle := strings.Index(hline, `[`), strings.Index(hline, `]`)
+	title = hline[starttitle+1 : endtitle]
+
+	var startid int = strings.Index(hline, `/questions/`)
+	var endid int = strings.Index(hline[startid+11:], `/`) + startid + 11
+
+	return title, hline[startid+11 : endid]
+
 }
