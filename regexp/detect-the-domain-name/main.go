@@ -18,6 +18,7 @@ func main() {
 	var buffer bytes.Buffer
 	for scanner.Scan() {
 		buffer.WriteString(scanner.Text())
+		buffer.WriteString('\n')
 	}
 
 	urls_map := make(map[string]bool)
