@@ -18,6 +18,7 @@ func main() {
 	var buffer bytes.Buffer
 	for scanner.Scan() {
 		buffer.WriteString(scanner.Text())
+		buffer.WriteString(" ")
 	}
 	var all_doc string = buffer.String()
 
