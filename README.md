@@ -14,3 +14,5 @@ Golang stuff:
 -Read input and write output with package "bufio"
 
 -Read png,jpg images
+
+-Regular expressions and string manipulation
