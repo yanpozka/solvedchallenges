@@ -1,6 +1,6 @@
 # Solved Challenges
 
-My solved challenges and hacks (Golang)
+My solved challenges and hacks (with Golang and Java)
 
 For now all of them are solved problems of https://www.hackerrank.com/challenges
 Every end folder has the same name of the problem
