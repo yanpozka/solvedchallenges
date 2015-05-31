@@ -2,3 +2,8 @@ the-captcha-cracker/input
 the-captcha-cracker/output
 digital-camera-day-or-night/pics
 *.swp
+
+java/nbproject/
+java/build.xml
+java/manifest.mf
+
