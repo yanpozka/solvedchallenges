@@ -8,12 +8,6 @@ import (
 	"strconv"
 )
 
-type ByteSlice []byte
-
-func (p ByteSlice) Len() int           { return len(p) }
-func (p ByteSlice) Less(i, j int) bool { return p[i] < p[j] }
-func (p ByteSlice) Swap(i, j int)      { p[i], p[j] = p[j], p[i] }
-
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	var index int
@@ -24,47 +18,50 @@ func main() {
 
 	for ; T > 0 && scanner.Scan(); T-- {
 		current_word := scanner.Bytes()
-		first_char = current_word[0]
 		index = -1
 
-		for ix := len(current_word) - 1; ix > 1; ix-- {
+		for ix := len(current_word) - 1; ix > 0; ix-- {
 			if current_word[ix] > current_word[ix-1] {
 				index = ix
 				break
 			}
 		}
 
-		if index == -1 {
-			if first_char < current_word[1] {
+		if index != -1 {
+			lencw := len(current_word)
+
+			if lencw > 1 {
 				var min byte = 255
 				var ix_min int = -1
 
-				for i, c := range current_word {
+				first_char = current_word[index-1]
+
+				for i := index; i < lencw; i++ {
+					c := current_word[i]
 					if c > first_char && c-first_char < min {
 						min = c - first_char
 						ix_min = i
 					}
 				}
-				var mx byte = current_word[ix_min]
-				p1 := current_word[:ix_min]
 
-				if ix_min+1 < len(current_word) {
-					p1 = append(p1, current_word[ix_min+1:]...)
-				}
-				var rasta ByteSlice = p1
-				sort.Sort(rasta)
+				current_word[index-1], current_word[ix_min] = current_word[ix_min], current_word[index-1]
 
-				fmt.Printf("%s%s\n", string(mx), string(rasta))
+				var sapo ByteSlice = current_word[index:]
+				sort.Sort(sapo)
+
+				fmt.Printf("%s%s\n", string(current_word[:index]), string(sapo))
 
 			} else {
 				fmt.Println("no answer")
 			}
 		} else {
-			current_word[index], current_word[index-1] = current_word[index-1], current_word[index]
-			var rabo ByteSlice = current_word[index:]
-			sort.Sort(rabo)
-
-			fmt.Printf("%s%s\n", string(current_word[:index]), string(rabo))
+			fmt.Println("no answer")
 		}
 	}
 }
+
+type ByteSlice []byte
+
+func (p ByteSlice) Len() int           { return len(p) }
+func (p ByteSlice) Less(i, j int) bool { return p[i] < p[j] }
+func (p ByteSlice) Swap(i, j int)      { p[i], p[j] = p[j], p[i] }
