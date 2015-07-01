@@ -46,21 +46,25 @@ func main() {
 				}
 			}
 		}
-
+		if T > 1 {
+			fmt.Println()
+		}
 	} // Test cases
 }
 
 func dijkstra(start, N int) []int {
-	pq := make(PriorityQueue, N)
+	pq := make(PriorityQueue, Graph[start].Len())
 	var dists []int = make([]int, N+1)
 
 	for ix := 1; ix < N+1; ix++ {
 		dists[ix] = INF
 	}
-	var i = 0
+	var i, c = 0, 0
 	for e := Graph[start].Front(); e != nil; e = e.Next() {
-		pq[i] = &Item{value: e.Value.(int), priority: 1, index: i}
+		c = e.Value.(int)
+		pq[i] = &Item{value: c, priority: 1, index: i}
 		i++
+		dists[c] = 1
 	}
 	heap.Init(&pq)
 
@@ -69,6 +73,9 @@ func dijkstra(start, N int) []int {
 
 		for adj := Graph[item.value].Front(); adj != nil; adj = adj.Next() {
 			u := adj.Value.(int)
+			if u == start {
+				continue
+			}
 			if dists[item.value] != INF && dists[item.value]+1 < dists[u] /* [item,adj] == 1 */ {
 				dists[u] = dists[item.value] + 1
 
@@ -81,26 +88,19 @@ func dijkstra(start, N int) []int {
 			}
 		}
 	}
-
 	return dists
 }
 
-// An Item is something we manage in a priority queue.
 type Item struct {
-	value    int // The value of the item; arbitrary.
-	priority int // The priority of the item in the queue.
-	// The index is needed by update and is maintained by the heap.Interface methods.
-	index int // The index of the item in the heap.
+	value, priority, index int
 }
 
-// A PriorityQueue implements heap.Interface and holds Items.
 type PriorityQueue []*Item
 
 func (pq PriorityQueue) Len() int { return len(pq) }
 
 func (pq PriorityQueue) Less(i, j int) bool {
-	// We want Pop to give us the highest, not lowest, priority so we use greater than here.
-	return pq[i].priority < pq[j].priority
+	return pq[i].priority > pq[j].priority
 }
 
 func (pq PriorityQueue) Swap(i, j int) {
@@ -125,7 +125,6 @@ func (pq *PriorityQueue) Pop() interface{} {
 	return item
 }
 
-// update modifies the priority and value of an Item in the queue.
 func (pq *PriorityQueue) update(item *Item, value, priority int) {
 	item.value = value
 	item.priority = priority
