@@ -12,8 +12,7 @@ const INF = int(MaxUint >> 1)
 var Graph []*list.List
 
 func main() {
-	var T, N, M, start, x, y int
-
+	var T, N, M, start, x, y, w int
 	fmt.Scanf("%d", &T)
 
 	for ; T > 0; T-- {
@@ -26,18 +25,21 @@ func main() {
 		}
 
 		for ; M > 0; M-- {
-			fmt.Scanf("%d%d", &x, &y)
-			Graph[x].PushBack(y)
-			Graph[y].PushBack(x)
+			fmt.Scanf("%d%d%d", &x, &y, &w)
+
+			Graph[x].PushBack(&edge{index: y, weight: w})
+			Graph[y].PushBack(&edge{index: x, weight: w})
 		}
 		fmt.Scanf("%d", &start)
 
 		dists := dijkstra(start, N)
 
+		fmt.Println(dists)
+
 		for ix := 1; ix < N+1; ix++ {
 			if ix != start {
 				if dists[ix] != INF {
-					fmt.Printf("%d", dists[ix]*6)
+					fmt.Printf("%d", dists[ix])
 				} else {
 					fmt.Printf("%d", -1)
 				}
@@ -55,53 +57,50 @@ func main() {
 func dijkstra(start, N int) []int {
 	pq := make(PriorityQueue, Graph[start].Len())
 	var dists []int = make([]int, N+1)
-	var visited []bool = make([]bool, N+1)
-
-	visited[0] = true
-	visited[start] = true
-
 	for ix := 1; ix < N+1; ix++ {
 		dists[ix] = INF
 	}
-	var i, c = 0, 0
+	var i int = 0
 	for e := Graph[start].Front(); e != nil; e = e.Next() {
-		c = e.Value.(int)
-		pq[i] = &Item{value: c, priority: 1, index: i}
+		c := e.Value.(*edge)
+		pq[i] = &Item{value: c, priority: c.weight, index: i}
 		i++
-		dists[c] = 1
+		dists[c.index] = c.weight
 	}
 	heap.Init(&pq)
 
 	for pq.Len() > 0 {
-		item := heap.Pop(&pq).(*Item)
+		current := heap.Pop(&pq).(*Item).value
 
-		if visited[item.value] {
-			continue
-		}
-		visited[item.value] = true
-
-		for adj := Graph[item.value].Front(); adj != nil; adj = adj.Next() {
-			u := adj.Value.(int)
-			if u == start {
+		for adj := Graph[current.index].Front(); adj != nil; adj = adj.Next() {
+			u := adj.Value.(*edge)
+			if u.index == start {
 				continue
 			}
-			if dists[item.value] != INF && dists[item.value]+1 < dists[u] /* [item,adj] == 1 */ {
-				dists[u] = dists[item.value] + 1
+			if dists[current.index] != INF && dists[current.index]+current.weight < dists[u.index] {
+				dists[u.index] = dists[current.index] + current.weight
 
 				im := &Item{
-					value:    u,
-					priority: dists[u],
+					value:    &edge{index: u.index, weight: dists[u.index]},
+					priority: dists[u.index],
 				}
 				heap.Push(&pq, im)
-				pq.update(im, im.value, dists[u])
+				pq.update(im, im.value, dists[u.index])
 			}
 		}
 	}
 	return dists
 }
 
+//
+type edge struct {
+	index, weight int
+}
+
+//
 type Item struct {
-	value, priority, index int
+	value           *edge
+	priority, index int
 }
 
 type PriorityQueue []*Item
@@ -134,7 +133,7 @@ func (pq *PriorityQueue) Pop() interface{} {
 	return item
 }
 
-func (pq *PriorityQueue) update(item *Item, value, priority int) {
+func (pq *PriorityQueue) update(item *Item, value *edge, priority int) {
 	item.value = value
 	item.priority = priority
 	heap.Fix(pq, item.index)
