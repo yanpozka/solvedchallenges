@@ -55,10 +55,6 @@ func main() {
 func dijkstra(start, N int) []int {
 	pq := make(PriorityQueue, Graph[start].Len())
 	var dists []int = make([]int, N+1)
-	var visited []bool = make([]bool, N+1)
-
-	visited[0] = true
-	visited[start] = true
 
 	for ix := 1; ix < N+1; ix++ {
 		dists[ix] = INF
@@ -74,11 +70,6 @@ func dijkstra(start, N int) []int {
 
 	for pq.Len() > 0 {
 		item := heap.Pop(&pq).(*Item)
-
-		if visited[item.value] {
-			continue
-		}
-		visited[item.value] = true
 
 		for adj := Graph[item.value].Front(); adj != nil; adj = adj.Next() {
 			u := adj.Value.(int)
