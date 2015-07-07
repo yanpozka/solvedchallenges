@@ -1,9 +1,13 @@
 package main
 
 import (
+	"bufio"
 	"container/heap"
 	"container/list"
 	"fmt"
+	"os"
+	"strconv"
+	"strings"
 )
 
 const MaxUint = ^uint(0)
@@ -13,10 +17,16 @@ var Graph []*list.List
 
 func main() {
 	var T, N, M, start, x, y, w int
-	fmt.Scanf("%d", &T)
 
-	for ; T > 0; T-- {
-		fmt.Scanf("%d%d", &N, &M)
+	scanner := bufio.NewScanner(os.Stdin)
+	scanner.Scan()
+	T, _ = strconv.Atoi(scanner.Text())
+
+	for ; T > 0 && scanner.Scan(); T-- {
+		parts := strings.Split(scanner.Text(), " ")
+
+		N, _ = strconv.Atoi(parts[0])
+		M, _ = strconv.Atoi(parts[1])
 
 		Graph = make([]*list.List, N+1)
 
@@ -24,13 +34,17 @@ func main() {
 			Graph[ix] = list.New()
 		}
 
-		for ; M > 0; M-- {
-			fmt.Scanf("%d%d%d", &x, &y, &w)
+		for ; M > 0 && scanner.Scan(); M-- {
+			parts := strings.Split(scanner.Text(), " ")
+			x, _ = strconv.Atoi(parts[0])
+			y, _ = strconv.Atoi(parts[1])
+			w, _ = strconv.Atoi(parts[2])
 
 			Graph[x].PushBack(&edge{index: y, weight: w})
 			Graph[y].PushBack(&edge{index: x, weight: w})
 		}
-		fmt.Scanf("%d", &start)
+		scanner.Scan()
+		start, _ = strconv.Atoi(scanner.Text())
 
 		dists := dijkstra(start, N)
 
@@ -57,28 +71,40 @@ func main() {
 func dijkstra(start, N int) []int {
 	pq := make(PriorityQueue, Graph[start].Len())
 	var dists []int = make([]int, N+1)
+	var visited []bool = make([]bool, N+1)
+
 	for ix := 1; ix < N+1; ix++ {
 		dists[ix] = INF
 	}
 	var i int = 0
 	for e := Graph[start].Front(); e != nil; e = e.Next() {
 		c := e.Value.(*edge)
-		pq[i] = &Item{value: c, priority: c.weight, index: i}
+		other := &edge{index: c.index, weight: c.weight}
+		pq[i] = &Item{value: other, priority: other.weight, index: i}
 		i++
-		dists[c.index] = c.weight
+		dists[other.index] = other.weight
 	}
 	heap.Init(&pq)
 
+	visited[0] = true
+	visited[start] = true
+
 	for pq.Len() > 0 {
 		current := heap.Pop(&pq).(*Item).value
+
+		if visited[current.index] {
+			continue
+		}
+		visited[current.index] = true
 
 		for adj := Graph[current.index].Front(); adj != nil; adj = adj.Next() {
 			u := adj.Value.(*edge)
 			if u.index == start {
 				continue
 			}
-			if dists[current.index] != INF && dists[current.index]+current.weight < dists[u.index] {
-				dists[u.index] = dists[current.index] + current.weight
+
+			if dists[current.index] != INF && dists[current.index]+u.weight < dists[u.index] {
+				dists[u.index] = dists[current.index] + u.weight
 
 				im := &Item{
 					value:    &edge{index: u.index, weight: dists[u.index]},
@@ -108,7 +134,7 @@ type PriorityQueue []*Item
 func (pq PriorityQueue) Len() int { return len(pq) }
 
 func (pq PriorityQueue) Less(i, j int) bool {
-	return pq[i].priority > pq[j].priority
+	return pq[i].priority < pq[j].priority
 }
 
 func (pq PriorityQueue) Swap(i, j int) {
