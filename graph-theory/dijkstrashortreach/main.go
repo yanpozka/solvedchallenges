@@ -48,17 +48,12 @@ func main() {
 
 		dists := dijkstra(start, N)
 
-		fmt.Println(dists)
-
 		for ix := 1; ix < N+1; ix++ {
 			if ix != start {
 				if dists[ix] != INF {
-					fmt.Printf("%d", dists[ix])
+					fmt.Printf("%d ", dists[ix])
 				} else {
-					fmt.Printf("%d", -1)
-				}
-				if ix < N {
-					fmt.Print(" ")
+					fmt.Printf("%d ", -1)
 				}
 			}
 		}
@@ -71,7 +66,6 @@ func main() {
 func dijkstra(start, N int) []int {
 	pq := make(PriorityQueue, Graph[start].Len())
 	var dists []int = make([]int, N+1)
-	var visited []bool = make([]bool, N+1)
 
 	for ix := 1; ix < N+1; ix++ {
 		dists[ix] = INF
@@ -86,16 +80,8 @@ func dijkstra(start, N int) []int {
 	}
 	heap.Init(&pq)
 
-	visited[0] = true
-	visited[start] = true
-
 	for pq.Len() > 0 {
 		current := heap.Pop(&pq).(*Item).value
-
-		if visited[current.index] {
-			continue
-		}
-		visited[current.index] = true
 
 		for adj := Graph[current.index].Front(); adj != nil; adj = adj.Next() {
 			u := adj.Value.(*edge)
