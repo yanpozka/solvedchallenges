@@ -46,7 +46,7 @@ func main() {
 		scanner.Scan()
 		start, _ = strconv.Atoi(scanner.Text())
 
-		dists := dijkstra(start, N)
+		dists := dijkstra(start, N) // !!
 
 		for ix := 1; ix < N+1; ix++ {
 			if ix != start {
@@ -75,9 +75,13 @@ func dijkstra(start, N int) []int {
 		c := e.Value.(*edge)
 		other := &edge{index: c.index, weight: c.weight}
 		pq[i] = &Item{value: other, priority: other.weight, index: i}
-		i++
-		dists[other.index] = other.weight
+		i++ // !!
+
+		if c.weight < dists[c.index] {
+			dists[other.index] = other.weight
+		}
 	}
+
 	heap.Init(&pq)
 
 	for pq.Len() > 0 {
