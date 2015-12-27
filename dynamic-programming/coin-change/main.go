@@ -7,6 +7,9 @@ import (
 	"strconv"
 )
 
+type cosa struct {
+}
+
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Split(bufio.ScanWords)
