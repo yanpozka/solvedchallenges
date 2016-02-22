@@ -8,3 +8,6 @@ java/build.xml
 java/manifest.mf
 
 /java/build/
+
+
+.idea/*
