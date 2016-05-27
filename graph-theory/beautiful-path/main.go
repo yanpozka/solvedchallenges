@@ -50,19 +50,22 @@ func main() {
 					}
 					a, b := result[l], result[l-1]
 
-					var found bool
+					min := INF
 					for elem := Graph[a].Front(); elem != nil; elem = elem.Next() {
 						if e, isType := elem.Value.(*edge); isType && e.index == b {
-							sum_or |= uint32(e.weight)
-							found = true
-							break
+							if e.weight < min {
+								min = e.weight
+							}
+							// fmt.Println(min)
 						}
 					}
-					if !found {
-						panic(fmt.Sprintf("not found edge %d, %d", a, b))
+					if min == INF {
+						panic("min inf")
 					}
+					// fmt.Println()
+					sum_or |= uint32(min)
 				}
-				fmt.Println(dists[end])
+				// fmt.Println(dists[end])
 				fmt.Println(sum_or)
 			} else {
 				fmt.Println(-1)
@@ -116,8 +119,7 @@ func dijkstra(start, N int) ([]int, []int) {
 				heap.Push(&pq, im)
 				pq.update(im, im.value, dists[u.index])
 
-				// prev[v] ← u
-				prev[u.index] = current.index
+				prev[u.index] = current.index // prev[v] ← u
 			}
 		}
 	}
