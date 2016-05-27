@@ -31,47 +31,42 @@ func main() {
 
 	dists, prev := dijkstra(start, N) // !!
 
-	for ix := 1; ix < N+1; ix++ {
-		if ix == end {
-			if dists[ix] != INF {
-				result := []int{end}
-				a := end
-				c := prev[a]
-				for ; c != start && c != 0; c = prev[a] {
-					result = append(result, c)
-					a = c
-				}
-				result = append(result, c)
-				sum_or := uint32(0)
-
-				for l := len(result) - 1; l >= 0; l-- {
-					if l-1 < 0 {
-						break
-					}
-					a, b := result[l], result[l-1]
-
-					min := INF
-					for elem := Graph[a].Front(); elem != nil; elem = elem.Next() {
-						if e, isType := elem.Value.(*edge); isType && e.index == b {
-							if e.weight < min {
-								min = e.weight
-							}
-							// fmt.Println(min)
-						}
-					}
-					if min == INF {
-						panic("min inf")
-					}
-					// fmt.Println()
-					sum_or |= uint32(min)
-				}
-				// fmt.Println(dists[end])
-				fmt.Println(sum_or)
-			} else {
-				fmt.Println(-1)
-			}
-			break
+	if dists[end] != INF {
+		result := []int{end}
+		a := end
+		c := prev[a]
+		for ; c != start && c != 0; c = prev[a] {
+			result = append(result, c)
+			a = c
 		}
+		result = append(result, c)
+		sum_or := uint32(0)
+
+		for l := len(result) - 1; l >= 0; l-- {
+			if l-1 < 0 {
+				break
+			}
+			a, b := result[l], result[l-1]
+
+			min := INF
+			for elem := Graph[a].Front(); elem != nil; elem = elem.Next() {
+				if e, isType := elem.Value.(*edge); isType && e.index == b {
+					if e.weight < min {
+						min = e.weight
+					}
+					// fmt.Println(min)
+				}
+			}
+			if min == INF {
+				panic("min inf")
+			}
+			// fmt.Println()
+			sum_or |= uint32(min)
+		}
+		// fmt.Println(dists[end])
+		fmt.Println(sum_or)
+	} else {
+		fmt.Println(-1)
 	}
 }
 
