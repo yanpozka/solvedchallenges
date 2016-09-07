@@ -19,4 +19,4 @@ Golang stuff:
 
 -Big integers "math/big"
 
--Data structures (maps, container/ list, heap)
+-Data structures (maps, container/ list, heap, tries, graphs, tree, sorting, priority queues, binary search)
