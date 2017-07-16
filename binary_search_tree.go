@@ -6,46 +6,10 @@ import (
 	"fmt"
 )
 
-func main() {
-	r := &tree{
-		d: 10,
-		left: &tree{
-			d: 7,
-			left: &tree{
-				d:     5,
-				right: &tree{d: 6},
-			},
-		},
-		right: &tree{
-			d:    22,
-			left: &tree{d: 13},
-		},
-	}
-
-	a := &tree{
-		d:    22,
-		left: &tree{d: 13},
-	}
-	fmt.Println(getInOrder(a.PreOrder()))
-
-	fmt.Println("order?", getInOrder(r.PreOrder()))
-
-	r1 := &tree{d: 10}
-	r1.Insert(7)
-	r1.Insert(22)
-	r1.Insert(13)
-	r1.Insert(5)
-	r1.Insert(6)
-	r1.Print()
-	fmt.Println("order?", getInOrder(r1.PreOrder()))
-
-	fmt.Println("r == r1 ??", equals(r, r1))
-	fmt.Println("r1 == r1 ??", equals(r1, r1))
-
-	r2 := rebuild(r1.PreOrder())
-	r2.Print()
-	fmt.Println("r1 == r2 ??", equals(r1, r2))
-	fmt.Println("r2 == r2 ??", equals(r2, r2))
+type tree struct {
+	d     int
+	left  *tree
+	right *tree
 }
 
 // get in-order list from a pre-order list on a BST
@@ -66,13 +30,7 @@ func getInOrder(pre []int) []int {
 	return result
 }
 
-type tree struct {
-	d     int
-	left  *tree
-	right *tree
-}
-
-// construct a binary search tree (BST) from a post-order list
+// construct a binary search tree (BST) from a pre-order list
 func rebuild(po []int) *tree {
 	if len(po) == 0 {
 		return nil
@@ -212,4 +170,46 @@ func (t *tree) Print() {
 		}
 		fmt.Println()
 	}
+}
+
+func main() {
+	r := &tree{
+		d: 10,
+		left: &tree{
+			d: 7,
+			left: &tree{
+				d:     5,
+				right: &tree{d: 6},
+			},
+		},
+		right: &tree{
+			d:    22,
+			left: &tree{d: 13},
+		},
+	}
+
+	a := &tree{
+		d:    22,
+		left: &tree{d: 13},
+	}
+	fmt.Println(getInOrder(a.PreOrder()))
+
+	fmt.Println("order?", getInOrder(r.PreOrder()))
+
+	r1 := &tree{d: 10}
+	r1.Insert(7)
+	r1.Insert(22)
+	r1.Insert(13)
+	r1.Insert(5)
+	r1.Insert(6)
+	r1.Print()
+	fmt.Println("order?", getInOrder(r1.PreOrder()))
+
+	fmt.Println("r == r1 ??", equals(r, r1))
+	fmt.Println("r1 == r1 ??", equals(r1, r1))
+
+	r2 := rebuild(r1.PreOrder())
+	r2.Print()
+	fmt.Println("r1 == r2 ??", equals(r1, r2))
+	fmt.Println("r2 == r2 ??", equals(r2, r2))
 }
