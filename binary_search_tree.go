@@ -1,15 +1,85 @@
-// https://play.golang.org/p/J1oE8PSDFU
+// https://play.golang.org/p/BGa6oDXUxY
 //
 package main
 
 import (
+	"container/list"
 	"fmt"
 )
+
+// iterator of a in-order visit of a BST
+type itr struct {
+	current *tree
+	stack   *list.List
+}
+
+func (i *itr) hasMore() bool {
+	return i.stack.Len() > 0
+}
+
+func (i *itr) next() int {
+	for i.stack.Len() > 0 {
+		switch tc := i.stack.Remove(i.stack.Front()).(type) {
+		case *tree:
+			if tc.right != nil {
+				i.stack.PushFront(tc.right)
+			}
+
+			i.stack.PushFront(tc.d)
+
+			if tc.left != nil {
+				i.stack.PushFront(tc.left)
+			}
+		case int:
+			return tc
+		}
+	}
+
+	return -1
+}
 
 type tree struct {
 	d     int
 	left  *tree
 	right *tree
+}
+
+func (t *tree) Itr() *itr {
+	stack := list.New()
+	stack.PushFront(t)
+	i := &itr{stack: stack, current: t}
+
+	return i
+}
+
+// in-order result without recursivity
+func (t *tree) inOrder() []int {
+	stack := list.New()
+	stack.PushFront(t)
+	var result []int
+
+	for stack.Len() > 0 {
+		val := stack.Remove(stack.Front())
+		if tc, isTree := val.(*tree); isTree {
+			if tc.right != nil {
+				stack.PushFront(tc.right)
+			}
+			stack.PushFront(tc.d)
+			if tc.left != nil {
+				stack.PushFront(tc.left)
+			}
+		} else {
+			result = append(result, val.(int))
+		}
+	}
+	return result
+}
+
+func (t *tree) isLeaf() bool {
+	if t == nil {
+		return false
+	}
+	return t.left == nil && t.right == nil
 }
 
 // get in-order list from a pre-order list on a BST
@@ -57,7 +127,6 @@ func equals(a, b *tree) bool {
 	if a.Height() != b.Height() {
 		return false
 	}
-
 	if a.d != b.d {
 		return false
 	}
@@ -188,8 +257,15 @@ func main() {
 		},
 	}
 
+	fmt.Println(r.inOrder())
+	it := r.Itr()
+	for it.hasMore() {
+		fmt.Print(it.next(), " ")
+	}
+	fmt.Println()
+
 	a := &tree{
-		d:    22,
+		d:    32,
 		left: &tree{d: 13},
 	}
 	fmt.Println(getInOrder(a.PreOrder()))
