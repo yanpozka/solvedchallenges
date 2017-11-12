@@ -21,3 +21,5 @@ Every end folder (or folder leaf) has the same name of the problem.
 -Regular expressions and string manipulation "strings" "strconv"
 
 -Big integers "math/big"
+
+-Goroutines, channels and concurrency
