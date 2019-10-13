@@ -2,7 +2,7 @@
 
 My solved challenges and hacks (with [Go](https://golang.org), Python and Java)
 
-Problems are from: [Hackerrank](https://www.hackerrank.com/challenges), [Leetcode](leetcode.com/problems), [codility](https://codility.com) and random problems that I find on Internet.
+Problems are from: [Hackerrank](https://www.hackerrank.com/challenges), [Leetcode](https://leetcode.com/problemset/all/), [codility](https://codility.com) and random problems that I find on Internet.
 Every end folder (or folder leaf) has the same name of the problem.
 
 
