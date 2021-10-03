@@ -6,15 +6,41 @@ func main() {
 
 	n1 := &Node{Val: 2}
 	n2 := &Node{Val: 3}
-	fmt.Println(levelOrder(&Node{
+	root := &Node{
 		Val:      1,
 		Children: []*Node{n1, n2},
-	}))
+	}
+	fmt.Println(levelOrder(root))
+	fmt.Println(levelOrderDFS(root))
 }
 
 type Node struct {
 	Val      int
 	Children []*Node
+}
+
+func levelOrderDFS(root *Node) [][]int {
+	if root == nil {
+		return nil
+	}
+	v := new(visitor)
+	v.dfs(root, 0)
+	return v.levels
+}
+
+type visitor struct {
+	levels [][]int
+}
+
+func (v *visitor) dfs(root *Node, level int) {
+	if level >= len(v.levels) {
+		v.levels = append(v.levels, []int{})
+	}
+	v.levels[level] = append(v.levels[level], root.Val)
+
+	for ix := range root.Children {
+		v.dfs(root.Children[ix], level+1)
+	}
 }
 
 func levelOrder(root *Node) [][]int {
