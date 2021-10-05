@@ -1,15 +1,18 @@
 //
 // https://leetcode.com/problems/group-anagrams/description/
-// https://play.golang.org/p/YDOD8LyE1sK
 package main
 
 import (
 	"bytes"
 	"fmt"
+	"strconv"
 )
 
 func main() {
-	in := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
+	in := []string{"aaaaaaaaaaabcdefghijklmnopqrstuvwxyz", "abbbbbbbbbbbcdefghijklmnopqurstuvwxyz", "abcccccccccccdefghijklmnopqurstuvwxyz"}
+	fmt.Println(groupAnagrams(in))
+
+	in = []string{"eat", "tea", "tan", "ate", "nat", "bat"}
 	fmt.Println(groupAnagrams(in))
 
 	// In:       ["cab", "tin", "pew", "duh", "may", "ill", "buy", "bar", "max", "doc"]
@@ -25,9 +28,10 @@ func main() {
 }
 
 func groupAnagrams(strs []string) [][]string {
-	hashes := make(map[string][]string, len(strs)/2)
+	hashes := make(map[string][]string, 2)
 	for _, s := range strs {
 		hash := h(s)
+		// fmt.Println(s, hash)
 		hashes[hash] = append(hashes[hash], s)
 	}
 
@@ -54,7 +58,9 @@ func h(s string) string {
 		if rep == 0 {
 			continue
 		}
-		b.WriteString(fmt.Sprintf("%d%d", rep, n))
+
+		b.WriteString(strconv.Itoa(rep))
+		b.WriteString(string('a' + n))
 	}
 	return b.String()
 }
