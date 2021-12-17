@@ -7,6 +7,21 @@ func main() {
 }
 
 func majorityElement(nums []int) int {
+	count, cand := 0, 0
+	for _, n := range nums {
+		if count == 0 {
+			cand = n
+		}
+		if n == cand {
+			count++
+		} else {
+			count--
+		}
+	}
+	return cand
+}
+
+func majorityElementExtraMem(nums []int) int {
 	freqs := map[int]int{}
 	var res int
 	for _, n := range nums {
