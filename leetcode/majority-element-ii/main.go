@@ -17,6 +17,9 @@ func majorityElement(nums []int) []int {
 	for n, f := range freqs {
 		if f > len(nums)/3 {
 			res = append(res, n)
+			if len(res) == 3 {
+				break
+			}
 		}
 	}
 	return res
