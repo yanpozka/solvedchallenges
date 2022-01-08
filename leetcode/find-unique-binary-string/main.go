@@ -25,11 +25,11 @@ func findDifferentBinaryString(nums []string) string {
 	set := map[int]bool{}
 
 	for _, nStr := range nums {
-		num, _ := strconv.ParseInt(nStr, 2, 32)
+		num, _ := strconv.ParseInt(nStr, 2, 16)
 		set[int(num)] = true
 	}
-	// fmt.Println(set)
-	if !set[0] {
+
+	if _, found := set[0]; !found {
 		var res string
 		for bitSize > 0 {
 			res += "0"
@@ -43,7 +43,6 @@ func findDifferentBinaryString(nums []string) string {
 
 	for n := start; n < end; n++ {
 		if _, found := set[n]; !found {
-			// println(n)
 			return strconv.FormatInt(int64(n), 2)
 		}
 	}
