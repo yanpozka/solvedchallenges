@@ -17,6 +17,26 @@ func numUniqueEmails(emails []string) int {
 	uniqs := map[string]bool{}
 
 	for _, email := range emails {
+		ix := strings.Index(email, "@")
+		user, domain := email[:ix], email[ix+1:]
+
+		plusIx := strings.Index(user, "+")
+		if plusIx == -1 {
+			plusIx = len(user)
+		}
+		user = user[:plusIx]
+		user = strings.ReplaceAll(user, ".", "")
+
+		uniqs[user+"#"+domain] = true
+	}
+
+	return len(uniqs)
+}
+
+func numUniqueEmailsSplit(emails []string) int {
+	uniqs := map[string]bool{}
+
+	for _, email := range emails {
 		parts := strings.Split(email, "@")
 		user, domain := parts[0], parts[1]
 
