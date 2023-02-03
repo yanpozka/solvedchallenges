@@ -34,7 +34,12 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+// DFS
 func largestValues(root *TreeNode) []int {
+	if root == nil {
+		return []int{}
+	}
+
 	s := new(sol)
 	s.largestValuesDFS(root, 0)
 
@@ -46,10 +51,6 @@ type sol struct {
 }
 
 func (s *sol) largestValuesDFS(root *TreeNode, level int) {
-	if root == nil {
-		return
-	}
-
 	if len(s.levels) == level {
 		s.levels = append(s.levels, root.Val)
 	} else {
@@ -58,10 +59,16 @@ func (s *sol) largestValuesDFS(root *TreeNode, level int) {
 		}
 	}
 
-	s.largestValuesDFS(root.Left, level+1)
-	s.largestValuesDFS(root.Right, level+1)
+	if root.Left != nil {
+		s.largestValuesDFS(root.Left, level+1)
+	}
+
+	if root.Right != nil {
+		s.largestValuesDFS(root.Right, level+1)
+	}
 }
 
+//BFS
 func largestValuesBFS(root *TreeNode) []int {
 	var result []int
 
